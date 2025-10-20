@@ -11,22 +11,22 @@
 
 3. Get persistent volume claim status:
    ```shell
-   kubectl get pvc
+   kubectl get pvc -n <ns>
    ```
 
 4. Get all services:
    ```shell
-   kubectl get services
+   kubectl get services -n <ns>
    ```
 
 5. Get deployments in a namespace:
    ```shell
-   kubectl get deployments -n <namespace>
+   kubectl get deployments -n <ns>
    ```
 
 6. Get nodes in the cluster:
    ```shell
-   kubectl get nodes
+   kubectl get nodes -n <ns>
    ```
 
 7. Get details of a specific resource:
@@ -38,7 +38,16 @@
    ```shell
    kubectl get ns
    ```
+   
+9. Get Secrets
+   ```shell
+   kubectl get secret -n <ns>
+   ```
 
+10. Get Secrets and decode (example database)
+   ```shell
+kubectl get secret -n <ns> postgresql -o jsonpath='{.data.postgres-password}' | base64 --decode && echo
+```
 ## Execute
 1. Look inside a Kubernetes pod (open a shell):
    ```shell

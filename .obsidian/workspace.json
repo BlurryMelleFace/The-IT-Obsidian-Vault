@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "20a5d3528a9ab2bd",
+        "id": "ddb028fd13012608",
         "type": "tabs",
         "children": [
           {
-            "id": "4c520967a6fa8fd5",
+            "id": "8f8bfa67edaa713d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Reference/Agile/Workitems.md",
-                "mode": "source",
+                "file": "01_Reference/DevOps/Kubernetes.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Workitems"
+              "title": "Kubernetes"
             }
           }
         ]
@@ -181,31 +181,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c520967a6fa8fd5",
+  "active": "8f8bfa67edaa713d",
   "lastOpenFiles": [
-    "01_Reference/Agile/Scrum.md",
+    "01_Reference/DevOps/Docker.md",
+    "03_Projects/Sprint-Current/temporary_daily.md",
+    "03_Projects/Sprint-Current/temporary_task.md",
+    "00_Secret/credentials.local.md",
     "01_Reference/Agile/Workitems.md",
+    "01_Reference/Git/Git Commands.md",
+    "01_Reference/Agile/Scrum.md",
     "Untitled 1.base",
     "Untitled.base",
     "Untitled 2.base",
-    "01_Reference/Git/Git Commands.md",
     "01_Reference/DevOps/AWS.md",
     "01_Reference/DevOps/Kubernetes.md",
     "01_Reference/AWS",
-    "01_Reference/DevOps/Docker.md",
     "01_Reference/Git/Git Commit Messages.md",
     "02_Prompts/Dev.md",
     "03_Projects/Sprint-Current/temporary_sprint_summary.md",
     "02_Prompts/Construction Kit/Sprint Summary.md",
     "02_Prompts/Construction Kit/Retro Summary.md",
-    "03_Projects/Sprint-Current/temporary_task.md",
     "02_Prompts/Learning.md",
     "01_Reference/Team/Mails.md",
     "01_Reference/Agile",
     "Index.md",
     "INSTALLATION.md",
     "01_Reference/Python/Isort.md",
-    "00_Secret/credentials.local.md",
     "README.md",
     "Untitled.canvas",
     "Untitled 4.base",
@@ -219,7 +220,6 @@
     "Untitled 2.canvas",
     "01_Reference/Web/Angular.md",
     "01_Reference/Web/UI Inspiration.md",
-    "00_Secret/credentials.placeholder.md",
     "02_Prompts/NiceOnes",
     "Untitled 1.canvas",
     "01_Reference/Team"

@@ -1,0 +1,6 @@
+1. Had a chat with georg on friday becuase of a bug that occured: 
+	- after changed symbol classses boxes somehow the coordiantes defaulted to (0,0) and (0,0) that resulted in the pid object being returned as a null object in functions causing errors in the recognition modules.
+	- I did some more testing and it seems like this generally occurs when the Area of a bounding box is 0. 
+	- I guess this makes sense because a bounding box with 0 area is useless but still this results in a failiure so we wrote a bug
+	- I guess drawing a 0 Area bbox is nearly impossible but maybe we should still add a check....
+2. I will work on The Dadabase PBI. I still need to set it up locally and then I can start working on it. I executed a bad command which messed up my local docker environment....so i need to fix that first....
