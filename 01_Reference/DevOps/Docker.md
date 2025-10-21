@@ -128,3 +128,9 @@ apt update && apt install -y jq
 ```shell
 jq . text_recognition_results.json
 ```
+
+## Status
+1.  Status of Docker
+```shell
+dockerstatus.com
+```

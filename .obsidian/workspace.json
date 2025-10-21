@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Secret/credentials.local.md",
+                "file": "01_Reference/DevOps/Docker.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "credentials.local"
+              "title": "Docker"
             }
           }
         ]
@@ -183,12 +183,14 @@
   },
   "active": "be86aa4e5f302659",
   "lastOpenFiles": [
+    "03_Projects/Sprint-Current/temporary_daily.md",
+    "03_Projects/Sprint-Current/temporary_task.md",
+    "01_Reference/Database/PostgresSQL.md",
     "00_Secret/credentials.local.md",
     "Index.md",
     "Images/PostgresSQL SSH Main.png",
     "Images/PostgresSQL LOCAL.png",
     "Images/PostgresSQL SSH SSH Tunnel.png",
-    "01_Reference/Database/PostgresSQL.md",
     "Images",
     "README.md",
     "Untitled.base",
@@ -196,8 +198,6 @@
     "01_Reference/DevOps/Kubernetes.md",
     "01_Reference/Database",
     "01_Reference/DevOps/Docker.md",
-    "03_Projects/Sprint-Current/temporary_daily.md",
-    "03_Projects/Sprint-Current/temporary_task.md",
     "01_Reference/Agile/Workitems.md",
     "01_Reference/Git/Git Commands.md",
     "01_Reference/Agile/Scrum.md",

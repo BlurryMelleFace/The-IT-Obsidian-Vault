@@ -160,7 +160,7 @@ SELECT * FROM jobs WHERE createddate >= NOW() - INTERVAL '7 days';
 
 ---
 
-## 🔐 Connection
+## 🔐 Connection IPID
 
 ### Local Connection
 1. Password: 
