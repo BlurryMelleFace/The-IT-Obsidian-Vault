@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aa2d3b6d374a06ea",
+        "id": "f6db11fb886c95c4",
         "type": "tabs",
         "children": [
           {
-            "id": "be86aa4e5f302659",
+            "id": "1e8efa1b3db70252",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Reference/DevOps/Docker.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "New tab"
             }
           }
         ]
@@ -181,11 +177,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be86aa4e5f302659",
+  "active": "1e8efa1b3db70252",
   "lastOpenFiles": [
+    "04_Workflows/Local API-BFF-UI.md",
+    "01_Reference/Database/PostgresSQL.md",
+    "01_Reference/Agile/Workitems.md",
+    "01_Reference/DevOps/Docker.md",
+    "01_Reference/Python/Poetry.md",
     "03_Projects/Sprint-Current/temporary_daily.md",
     "03_Projects/Sprint-Current/temporary_task.md",
-    "01_Reference/Database/PostgresSQL.md",
     "00_Secret/credentials.local.md",
     "Index.md",
     "Images/PostgresSQL SSH Main.png",
@@ -197,8 +197,6 @@
     "Untitled.canvas",
     "01_Reference/DevOps/Kubernetes.md",
     "01_Reference/Database",
-    "01_Reference/DevOps/Docker.md",
-    "01_Reference/Agile/Workitems.md",
     "01_Reference/Git/Git Commands.md",
     "01_Reference/Agile/Scrum.md",
     "Untitled 1.base",
@@ -220,7 +218,6 @@
     "03_Projects/Sprint-Current/temproary_test.md",
     "01_Reference/Configuration/IDE.md",
     "01_Reference/Configuration",
-    "01_Reference/Python/Poetry.md",
     "03_Projects/Sprint-Current/temporary_sprint_retrospective.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
