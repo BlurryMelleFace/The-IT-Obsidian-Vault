@@ -94,3 +94,24 @@ Topic:
 ```Text
 r.jina.ai/
 ```
+
+   ```text
+# Merge Request Review Assistance Prompt
+
+I am currently conducting a **merge request review** and would like your expert assistance in evaluating it thoroughly.
+
+Please:
+1. **Explain what is happening** in the provided merge request — summarize the key changes, their purpose, and how they impact the project.
+2. **Identify areas for improvement**, both in terms of code quality (e.g., structure, readability, efficiency) and adherence to best practices (e.g., maintainability, security, and consistency).
+3. **Offer constructive feedback** on how the implementation could be enhanced or made more robust.
+
+Your response should be clear, professional, and actionable, with concise explanations and practical recommendations.
+
+---
+**Goal:** Achieve a well-informed and insightful merge request review that helps ensure clean, efficient, and maintainable code.
+
+   ```
+
+
+
+
