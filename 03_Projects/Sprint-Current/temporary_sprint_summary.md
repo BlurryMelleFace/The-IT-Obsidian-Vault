@@ -1,54 +1,69 @@
-# Sprint 16 – Review Summary
+# Sprint Review Summary
 
-## Key Work Areas
-
-### 1. API Refactoring & Improvements
-- Refactored the entire API structure to align with **FastAPI best practices**:
-  - Split `run.py` into modular structure with `api/` and `core/` folders.
-  - Introduced **routers**, **typed dependencies**, and **dependency injection**.
-  - Implemented **domain errors** and centralized **exception handlers**.
-  - Added **docstrings** for SonarQube compliance.
-- Restructured Celery task logic:
-  - Improved task configuration.
-  - Explored **Chords and Chains** for better task orchestration.
-- Testing:
-  - Fixed and adapted tests after refactor.
-  - Increased coverage to **~75%**, meeting SonarQube requirements.
-
-### 2. Logging & Analytics (Frontend Integration)
-- Integrated **Siemens Analytics service (Matomo-based)** into the frontend.
-- Achievements:
-  - Logging of **route changes** between UI pages.
-  - Added **user identification** (from local storage with fallbacks).
-  - Set up workflow/context-based logging for different UI components.
-  - Established a **dashboard** to visualize logged events.
-- Next Steps discussed:
-  - Support environment variables & session storage for identifiers.
-  - Expand logging to button clicks and contextual actions.
-
-### 3. Collaboration & Team Contributions
-- Authored **meeting minutes (MoM)** and shared outcomes with the team.
-- Helped colleagues with test configuration issues (e.g., Poetry setup).
-- Coordinated with Anita and Rahul on API and logging tasks.
-- Engaged in refinement discussions about **security topics** and **UI bug fixes**.
-
-## Challenges
-- **Large-scale refactor** touched many files, making the merge request difficult to review.  
-  → Acknowledged in communication, committed to splitting future changes into smaller steps.
-- Encountered difficulties with **Celery tasks** integration and Redis connections.  
-  → Iterated solutions and explored advanced Celery features.
-- Needed to adjust **tests** significantly due to refactor.  
-  → Solved by updating coverage configuration and fixing failing cases.
-
-## Achievements & Deliverables
-- **Clean, modular API architecture** ready for long-term maintainability.
-- **Exception handling & domain error framework** implemented.
-- **Celery tasks refactored** and improved with future scalability in mind.
-- **75%+ test coverage** achieved (from ~30% failing previously).
-- **Frontend logging service operational**, with route tracking and user identification integrated.
-- **Analytics dashboard** up and running for monitoring user interactions.
+## 🗓 Sprint Weeks: 25-42 to 25-43
 
 ---
 
-✅ **Overall Outcome**:  
-This sprint delivered a **robust API refactor**, introduced **structured error handling**, boosted **test coverage**, and successfully **integrated frontend logging** with analytics. These improvements significantly enhance maintainability, observability, and readiness for upcoming features.
+## ✅ Key Tasks Completed
+
+- **Symbol Catalog Cleanup**
+  - Removed duplicates and sorted entries alphabetically.
+  - Added additional standards to expand frontend dropdown options.
+  - Prepared catalog for deployment to production.
+
+- **Database Setup & Debugging**
+  - Established local access to the Pune-hosted IPID PostgreSQL database using SSH and port forwarding.
+  - Enabled full querying and inspection of the remote DB from the local environment (VS Code integration).
+  - Investigated and began fixing a bug in the DB models identified during schema review.
+
+- **API Enhancements**
+  - Fully overhauled the **Core API** documentation.
+  - Added clear examples and proper response schemas for all major endpoints:
+    - Language detection
+    - Preview image
+    - Text/symbol/line extraction
+    - Symbol-text and line-text association
+    - DEXPI builder
+    - Image conversion & file save
+    - Task lifecycle (submit, check status, cancel, etc.)
+    - Dev & Health endpoints
+
+- **New Feature Planning**
+  - Participated in refinement for a new upload page.
+  - Designed solution for custom JSON uploads to support user-defined class mappings (to appear in dropdowns).
+
+- **Code Review & Pair Programming**
+  - Supported Georg with his local setup and API issues.
+  - Participated in joint debugging and knowledge exchange.
+  - Performed multiple code reviews focused on testing and local reproducibility.
+
+---
+
+## 🚧 Challenges Faced & Resolutions
+
+- **Redis & Local Repo Issues**
+  - Redis wasn’t functioning correctly; resolved by cleaning the local repo and re-cloning it.
+
+- **Truncated Data in API**
+  - Encountered issues with malformed task-related data; began debugging process to ensure full task visibility.
+
+- **Slow Start Midweek**
+  - A low-productivity day due to personal fatigue, but followed by renewed focus on debugging and documentation.
+
+---
+
+## 🌟 Notable Achievements
+
+- Seamlessly connected and debugged a remote production-grade database.
+- Major improvements to developer-facing API usability and clarity through enhanced documentation.
+- Prepared and validated frontend data improvements (symbol catalog) for production release.
+- Helped unblock teammates through hands-on support and pair debugging.
+
+---
+
+## 🎯 Focus for Next Sprint
+
+- Finalize and deploy database schema fixes.
+- Implement JSON upload feature for class mappings.
+- Continue improving local environment reliability for the team.
+- Monitor the promotion of the symbol catalog to production.

@@ -13,6 +13,10 @@
 ```
 
 ```text
+$env:APP_URL = "http://localhost:8000"
+```
+
+```text
 uvicorn run:app --reload --port 8080
 ```
 
