@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Projects/Sprint-Current/temporary_refinement.md",
-                "mode": "source",
+                "file": "03_Projects/IPID/API-URLs.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "temporary_refinement"
+              "title": "API-URLs"
             }
           }
         ]
@@ -183,16 +183,20 @@
   },
   "active": "2e9bab8609c13187",
   "lastOpenFiles": [
+    "03_Projects/IPID",
+    "03_Projects/Sprint-Current/temporary_daily.md",
+    "03_Projects/IPID/API-URLs.md",
+    "01_Reference/DevOps/Docker.md",
+    "01_Reference/Git/Git Commands.md",
+    "03_Projects/Sprint-Current/temporary_refinement.md",
     "03_Projects/Refinement.md",
     "00_Secret/credentials.local.md",
-    "01_Reference/DevOps/Docker.md",
     "Untitled.md",
     "Untitled.base",
     "Untitled 1.base",
     "03_Projects/Sprint-Current/temporary_task.md",
     "01_Reference/Database/PostgresSQL.md",
     "03_Projects/Sprint-Current/temporary_sprint_summary.md",
-    "03_Projects/Sprint-Current/temporary_daily.md",
     "02_Prompts/Construction Kit/Sprint Summary.md",
     "04_Workflows/Local API-BFF-UI.md",
     "02_Prompts/Dev.md",
@@ -206,19 +210,15 @@
     "01_Reference/Agile/Scrum.md",
     "INSTALLATION.md",
     "01_Reference/DevOps/Node Tools.md",
-    "01_Reference/Git/Git Commands.md",
     "01_Reference/DevOps/Kubernetes.md",
     "Images/PostgresSQL SSH Main.png",
     "Images/PostgresSQL LOCAL.png",
     "Images/PostgresSQL SSH SSH Tunnel.png",
     "Images",
-    "README.md",
     "Untitled.canvas",
     "01_Reference/Database",
     "Untitled 2.base",
     "01_Reference/AWS",
-    "01_Reference/Git/Git Commit Messages.md",
-    "02_Prompts/Construction Kit/Retro Summary.md",
     "01_Reference/Agile",
     "Untitled 4.base",
     "Untitled 3.base",

@@ -1,9 +1,13 @@
-Yesterday: 
+I added a **database migration script** that runs automatically at startup to make sure the `jobs` table schema is up to date.  
 
-1. As I mentioned I had some redis Problems I ran into yesterday. Kindly Razvan helped me out here and we both figured out that the Docker hub regestry was down. That later got resolved so my local Setup worked again. 
-2. I’ve successfully configured the connection to the database Locally and also the connection to the Pune Database.
+Specifically, I wrote an **idempotent migration function** that:
 
-Today: 
+- Connects to the database via the shared SQLAlchemy engine (`DbConnection.engine`).
+    
+- Checks whether certain columns (like `userid` or `createdby`) exist in the `jobs` table.
+    
+- Executes raw SQL queries (`ALTER TABLE ...`) to add or remove columns if needed — safely and repeatably.
 
-1. I am reading into SQLAlchemy which we are using to query the database and also get familiar witht the database code. 
+Was in some sbom meetings with lars rahul and georg
 
+Today I will try and add a service layer in the API so we can call other APIs in our current case to fetch user information based on a user ID from the `FDS_USERS_API_ENDPOINT`
