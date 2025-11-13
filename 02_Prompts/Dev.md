@@ -50,6 +50,8 @@ Generate a Bash-style tree representation of the JSON structure. Use '[array]' t
 
    ```text
 Please refine and elevate the quality of my prompt while maintaining its original purpose. Improve its clarity, structure, and level of detail to ensure precise and seamless comprehension. The final version should be impeccably written, professionally organized, and enriched with descriptive language to optimize understanding for a chatbot. Kindly provide the improved prompt in a downloadable Markdown file format.
+
+Please be concice.
    ```
    
    ```text
@@ -114,4 +116,6 @@ Your response should be clear, professional, and actionable, with concise explan
 
 
 
-
+```text
+Ensure all changes you make are fully aligned with the current repository structure and established conventions. Before implementing modifications, carefully analyze the repository’s layout, files, and coding patterns to understand its logic and dependencies. Incorporate updates that maintain consistency, readability, and quality, avoiding any structural or stylistic deviations. All changes must integrate seamlessly into the existing system, enhancing functionality while preserving the repository’s integrity and coherence.
+```

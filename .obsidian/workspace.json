@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f6db11fb886c95c4",
+        "id": "5c4ba75f317b5d28",
         "type": "tabs",
         "children": [
           {
-            "id": "2e9bab8609c13187",
+            "id": "14c519cc731c0b74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Projects/IPID/API-URLs.md",
-                "mode": "preview",
+                "file": "01_Reference/DevOps/Docker.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "API-URLs"
+              "title": "Docker"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 504.5
   },
   "right": {
     "id": "2d4cfb9044fd62d7",
@@ -181,36 +181,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e9bab8609c13187",
+  "active": "14c519cc731c0b74",
   "lastOpenFiles": [
-    "03_Projects/IPID",
-    "03_Projects/Sprint-Current/temporary_daily.md",
-    "03_Projects/IPID/API-URLs.md",
-    "01_Reference/DevOps/Docker.md",
-    "01_Reference/Git/Git Commands.md",
-    "03_Projects/Sprint-Current/temporary_refinement.md",
-    "03_Projects/Refinement.md",
     "00_Secret/credentials.local.md",
-    "Untitled.md",
-    "Untitled.base",
-    "Untitled 1.base",
-    "03_Projects/Sprint-Current/temporary_task.md",
-    "01_Reference/Database/PostgresSQL.md",
-    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
-    "02_Prompts/Construction Kit/Sprint Summary.md",
-    "04_Workflows/Local API-BFF-UI.md",
-    "02_Prompts/Dev.md",
-    "Index.md",
-    "01_Reference/Python/Poetry.md",
-    "01_Reference/Python/Isort.md",
-    "01_Reference/Python/Black.md",
-    "01_Reference/DevOps/AWS.md",
-    "01_Reference/DevOps/IntelliJ.md",
+    "01_Reference/DevOps/Docker.md",
+    "03_Projects/Sprint-Current/temporary_daily.md",
     "01_Reference/Agile/Workitems.md",
-    "01_Reference/Agile/Scrum.md",
-    "INSTALLATION.md",
-    "01_Reference/DevOps/Node Tools.md",
-    "01_Reference/DevOps/Kubernetes.md",
+    "04_Workflows/Token Vending & AWS Credentials.md",
+    "04_Workflows/Local API-BFF-UI.md",
+    "03_Projects/Sprint-Current/temproary_test.md",
+    "03_Projects/IPID/API-URLs.md",
+    "02_Prompts/Learning.md",
+    "02_Prompts/General.md",
+    "02_Prompts/Dev.md",
+    "02_Prompts/Construction Kit/Sprint Summary.md",
+    "02_Prompts/Construction Kit/Retro Summary.md",
+    "02_Prompts/NiceOnes/UI Promt.md",
+    "02_Prompts/NiceOnes/Nice Ones.md",
+    "02_Prompts/Construction Kit/Writing Tests.md",
+    "Untitled 1.base",
+    "README.md",
+    "Untitled.base",
+    "Index.md",
+    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
+    "01_Reference/DevOps/AWS.md",
+    "03_Projects/Sprint-Current/temporary_task_ai.md",
+    "03_Projects/Sprint-Current/temporary_task_manual.md",
+    "03_Projects/Sprint-Current/temporary_refinement.md",
+    "03_Projects/Sprint-Current/temporary_sprint_retrospective.md",
+    "01_Reference/Git/Git Commit Messages.md",
+    "02_Prompts/General",
+    "02_Prompts/Dev",
+    "03_Projects/IPID",
+    "01_Reference/Git/Git Commands.md",
     "Images/PostgresSQL SSH Main.png",
     "Images/PostgresSQL LOCAL.png",
     "Images/PostgresSQL SSH SSH Tunnel.png",
@@ -220,9 +223,6 @@
     "Untitled 2.base",
     "01_Reference/AWS",
     "01_Reference/Agile",
-    "Untitled 4.base",
-    "Untitled 3.base",
-    "01_Reference/Configuration",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"

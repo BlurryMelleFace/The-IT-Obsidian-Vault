@@ -77,3 +77,8 @@ aws logs describe-log-groups
 aws logs describe-log-streams --log-group-name <group>
 aws logs get-log-events --log-group-name <group> --log-stream-name <stream>
 ```
+
+1. Token vedning machine
+2. Update credentials in .aws 
+3. aws eks update-kubeconfig --region eu-central-1 --name eks-dev-platform
+
