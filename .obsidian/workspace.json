@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "04502ba946416c08",
+        "id": "2ab648d80b680beb",
         "type": "tabs",
         "children": [
           {
-            "id": "816b6b0499dc1611",
+            "id": "b5cf5975570587f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 504.5
+    "width": 504.5,
+    "collapsed": true
   },
   "right": {
     "id": "2d4cfb9044fd62d7",
@@ -181,11 +182,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "816b6b0499dc1611",
+  "active": "b5cf5975570587f9",
   "lastOpenFiles": [
-    "01_Reference/Agile/Workitems/BUG.md",
-    "01_Reference/Agile/Workitems/Accpetance Criteria.md",
+    "01_Reference/Git/Git Commands.md",
     "01_Reference/Agile/Workitems/PBI (Product Backlog Item).md",
+    "Untitled.base",
+    "01_Reference/Agile/Workitems/Accpetance Criteria.md",
+    "01_Reference/Agile/Workitems/BUG.md",
     "01_Reference/Agile/Workitems",
     "04_Workflows/Local API-BFF-UI.md",
     "04_Workflows/Token Vending & AWS Credentials.md",
@@ -201,7 +204,6 @@
     "01_Reference/Team/Mails.md",
     "01_Reference/Python/Virtual Environment.md",
     "01_Reference/Python/Black.md",
-    "01_Reference/Git/Git Commands.md",
     "01_Reference/DevOps/Powershell.md",
     "01_Reference/DevOps/Kubernetes.md",
     "01_Reference/DevOps/Celery.md",
@@ -209,8 +211,6 @@
     "01_Reference/Database/PostgresSQL.md",
     "01_Reference/Configuration/IDE.md",
     "01_Reference/Agile/Scrum.md",
-    "README.md",
-    "Untitled.base",
     "Untitled 1.base",
     "02_Prompts/General",
     "02_Prompts/Dev",
