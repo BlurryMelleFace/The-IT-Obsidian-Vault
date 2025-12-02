@@ -1,0 +1,1 @@
+So I Had a chat with razvan and we figured there will be sokme changes in the jobs response from the APIs which will need to be reflected in the UI.This means after the merge of my pbi branch I will assist with aligning the changes in the jobs response with the UI jobs page. 
