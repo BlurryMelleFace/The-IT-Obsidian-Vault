@@ -58,6 +58,9 @@ Please be concice.
 Please explain the relationship between these files. This information is crucial, as I will need it for another prompt. Ensure clarity, precision, and conciseness. Please return it as a md bash for easy copying.
    ```
 
+   ```text
+Create a clear, visually structured UI representation of the provided tasks based on the PBIs and acceptance criteria. Present a professional visualization that groups tasks logically and shows their workflow and hierarchy. Briefly explain how each task and its acceptance criteria contribute to the sprint goal. Include a short section mapping each PBI to its impact on the sprint goal and the value it delivers. Use polished, concise language and standard UI/UX patterns (e.g., cards, columns, flows) to ensure maximum clarity.
+   ```
 ---
    ```text
 I’d like you to create a **Prompt Construction Kit** in Markdown. This should be a structured collection of prompts that I can easily copy from my Obsidian workspace to generate well-structured testing prompts tailored to my needs.
