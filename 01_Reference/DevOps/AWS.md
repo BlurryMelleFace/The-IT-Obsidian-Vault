@@ -6,7 +6,6 @@ tags:
   - cheatsheet
   - cli
 ---
-hallo
 # AWS (Amazon Web Services)
 
 > [!INFO]
