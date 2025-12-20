@@ -1,3 +1,16 @@
+---
+tags:
+  - prompts
+  - learning
+  - education
+  - explanation
+---
+
+# Learning & Explanation Prompts
+
+> [!INFO]
+> Prompts designed to help break down complex topics and accelerate learning.
+
 ```text
 Break this down as if I'm a beginner with no prior knowledge:
 ```

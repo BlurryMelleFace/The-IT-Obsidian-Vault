@@ -1,31 +1,44 @@
-   ```text
+---
+tags:
+  - prompts
+  - general
+  - writing
+  - editing
+---
+
+# General Writing Prompts
+
+> [!INFO]
+> Shortcuts for rewriting, summarizing, and polishing general text.
+
+```text
 Can you explain this in a more thorough way, with examples:
-   ```
-   
-   ```text
+```
+
+```text
 Summarize this in one sentence, keeping the core idea intact: 
-   ```
+```
 
-   ```text
+```text
 Give me a step-by-step guide on how to tackle this problem:
-   ```
+```
 
-   ```text
+```text
 Casually polish this text, without changing the meaning:
-   ```
+```
 
-   ```text
+```text
 Can you simplify this without losing key details:
-   ```
+```
 
-   ```text
+```text
 How would an expert in this field phrase this:
-   ```
+```
 
-   ```text
+```text
 List the key takeaways from this in bullet points:
-   ```
+```
 
-   ```text
+```text
 Reword this to make it more persuasive or compelling:
-   ```
+```
