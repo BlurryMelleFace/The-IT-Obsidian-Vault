@@ -1,205 +1,105 @@
+---
+tags:
+  - git
+  - vcs
+  - cheatsheet
+  - cli
+---
 
-## Update
-1. Update a Branch from Main:
-   ```shell
-   git rebase origin/main
-   ```
+# Git Commands
 
-   ```shell
-   git pull origin main
-   ```
-## Create
-1. Create and switch to the new branch in one step:
-   ```shell
-	git checkout -b my-new-branch
-   ```
-2. Push the new branch to remote (e.g., GitHub, GitLab):
-   ```shell
-   git push -u origin my-new-branch
-   ```
-   
-## Switch
-2. Switch to an existing branch:
-   ```shell
-   git checkout <branchName>
-   ```
-3. Switch branches (modern syntax):
-   ```shell
-   git switch <branchName>
-   ```
-## Delete
-2. Delete a branch locally:
-   ```shell
-   git branch -d <branchName>
-   ```
+> [!INFO]
+> Essential Git commands for version control, branching, and repository management.
 
-3. Remove Merged Local Branches
+**Related Notes:**
+- [[Git Commit Messages]] – Best practices for commit history.
+- [[IntelliJ]] – Git integration in IDE.
+
+---
+
+## 🌿 Branching
+1. **List Branches** (All):
    ```shell
- git branch --merged main | ForEach-Object {
-    if ($_ -ne "* main" -and $_ -ne "main") {
-        git branch -d $_.Trim()
-    }
-}
-
+   git branch -a
    ```
-
-4. Prune deleted branches:
+2. **Create & Switch**:
+   ```shell
+   git checkout -b <branch-name>
+   ```
+   *Modern:* `git switch -c <branch-name>`
+3. **Switch Branch**:
+   ```shell
+   git switch <branch-name>
+   ```
+4. **Delete Local Branch**:
+   ```shell
+   git branch -d <branch-name>
+   ```
+5. **Delete Remote Branch**:
+   ```shell
+   git push origin --delete <branch-name>
+   ```
+6. **Fetch & Prune** (Clean up deleted remote branches):
    ```shell
    git fetch --prune
    ```
-## Get
-4. Fetch all new branches:
+
+## 🔄 Syncing
+1. **Pull Latest** (Rebase preferred for clean history):
+   ```shell
+   git pull --rebase origin main
+   ```
+2. **Push Branch**:
+   ```shell
+   git push -u origin <branch-name>
+   ```
+3. **Fetch All**:
    ```shell
    git fetch --all
    ```
 
-6. View all branches (local and remote):
+## 💾 Staging & Committing
+1. **Stage File**:
    ```shell
-   git branch -a
+   git add <file>
    ```
-
-7. Pull the latest changes from a branch:
-   ```shell
-   git pull <branchName>
-   ```
-
-## Add
-12. Add a specific file to the staging area:
-   ```shell
-   git add <fileName>
-   ```
-
-13. Add all changes in the current directory to staging:
+2. **Stage All**:
    ```shell
    git add .
    ```
-
-## Commit
-14. Commit with a message:
+3. **Commit**:
    ```shell
-   git commit -m "Your commit message"
+   git commit -m "feat: add new login page"
    ```
-## Push
-16. Push changes to the remote repository:
+4. **Amend Last Commit** (Change message/content):
    ```shell
-   git push origin <branchName>
+   git commit --amend
    ```
 
-## Merge
-18. Merge another branch into the current branch:
-   ```shell
-   git merge <branchName>
-   ```
-
-## Rebase
-19. Rebase the current branch onto another branch:
-   ```shell
-   git rebase <branchName>
-   ```
-
-20. Abort a rebase:
-   ```shell
-   git rebase --abort
-   ```
-
-## Status
-21. View the current status of the working directory:
-   ```shell
-   git status
-   ```
-
-## Log
-22. View commit history:
-   ```shell
-   git log
-   ```
-
-23. View a one-line summary of the commit history:
-   ```shell
-   git log --oneline
-   ```
-
-## Stash
-24. Save changes to the stash:
+## 📦 Stash
+1. **Stash Changes**:
    ```shell
    git stash
    ```
-
-25. Apply the most recent stash:
+2. **Apply Stash**:
    ```shell
-   git stash apply
+   git stash pop
    ```
-
-26. List all stashes:
+3. **List Stashes**:
    ```shell
    git stash list
    ```
 
-## Remote
-27. Add a new remote repository:
+## 🕰️ History & Undo
+1. **Log (One-line)**:
    ```shell
-   git remote add origin <repositoryURL>
+   git log --oneline --graph --decorate
    ```
-
-28. View remote repositories:
+2. **Reset Hard** (Discard changes):
    ```shell
-   git remote -v
+   git reset --hard HEAD
    ```
-
-29. Remove a remote repository:
-   ```shell
-   git remote remove <name>
-   ```
-
-## Tag
-30. Create a new tag:
-   ```shell
-   git tag <tagName>
-   ```
-
-31. Push a tag to the remote repository:
-   ```shell
-   git push origin <tagName>
-   ```
-
-32. Delete a tag locally:
-   ```shell
-   git tag -d <tagName>
-   ```
-
-33. Delete a tag remotely:
-   ```shell
-   git push origin --delete <tagName>
-   ```
-
-## Reset
-34. Reset the staging area but keep changes:
-   ```shell
-   git reset <fileName>
-   ```
-
-35. Reset the working directory to the last commit:
-   ```shell
-   git reset --hard
-   ```
-
-36. Undo the last commit but keep changes:
+3. **Soft Reset** (Undo commit, keep changes staged):
    ```shell
    git reset --soft HEAD~1
-   ```
-
-## Miscellaneous
-37. View the Git configuration:
-   ```shell
-   git config --list
-   ```
-
-38. Set a global username:
-   ```shell
-   git config --global user.name "Your Name"
-   ```
-
-39. Set a global email:
-   ```shell
-   git config --global user.email "youremail@example.com"
    ```

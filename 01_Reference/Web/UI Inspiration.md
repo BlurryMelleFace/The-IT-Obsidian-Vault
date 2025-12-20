@@ -1,30 +1,35 @@
+---
+tags:
+  - web
+  - design
+  - ui
+  - ux
+  - inspiration
+---
 
-## UI Pattern Libraries
+# UI/UX Inspiration
 
-- [ui-patterns.com](https://ui-patterns.com)  
-  → Common UX patterns explained with examples and best practices.
+> [!INFO]
+> Resources for discovering modern UI patterns, interactions, and visual design ideas.
 
-- [collectui.com](https://collectui.com/)  
-  → Daily inspiration with a focus on conceptual UI shots and patterns.
+**Related Notes:**
+- [[CSS Tools]] – Implementation helpers.
 
 ---
 
-## Microinteractions & Animation Ideas
+## 🧩 Patterns & libraries
+- **[ui-patterns.com](https://ui-patterns.com)**  
+  Explanations of common UX patterns and when to use them.
+- **[Collect UI](https://collectui.com/)**  
+  Categorized daily inspiration (Login screens, 404 pages, etc.).
 
-- [lottiefiles.com](https://lottiefiles.com/free-animations/icon)  
-  → Explore lightweight, interactive animations powered by JSON.
+## 🎞️ Motion & Interaction
+- **[LottieFiles](https://lottiefiles.com)**  
+  Lightweight JSON-based animations.
+- **[Motion.dev](https://motion.dev/)**  
+  Guide to meaningful motion in interfaces.
 
-- [animista.net](https://animista.net/)  
-  → Preset CSS animations you can customize and export.
-
-- [motion.dev](https://motion.dev/)  
-  → Learn how motion and transitions enhance usability with real examples.
-
----
-
-##  To Explore
-
-- [designvault.io](https://designvault.io) — UI references for macOS/iOS apps  
-- [land-book.com](https://land-book.com/) — Clean marketing and product site inspiration  
-- [figma.com/community](https://figma.com/community) — Explore Figma templates, kits, and UI ideas
-
+## 🔭 Explore
+- **[Design Vault](https://designvault.io)** – Real-world app references (iOS/macOS).
+- **[Land-book](https://land-book.com/)** – Marketing landing page inspiration.
+- **[Figma Community](https://figma.com/community)** – Free templates and UI kits.

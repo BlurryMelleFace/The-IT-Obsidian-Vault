@@ -1,10 +1,24 @@
+---
+tags:
+  - agile
+  - scrum
+  - methodology
+  - framework
+  - process
+---
 
-> **Summary**  
-> Scrum is a lightweight framework for solving complex problems by delivering value iteratively and incrementally. It relies on **empiricism** (transparency, inspection, adaptation) and is sustained by five **values** (commitment, focus, openness, respect, courage).
+# Scrum Framework
+
+> [!INFO]
+> **Scrum** is a lightweight framework for solving complex problems by delivering value iteratively. It relies on **empiricism** and is sustained by five **values**: commitment, focus, openness, respect, and courage.
+
+**Related Notes:**
+- [[PBI (Product Backlog Item)]] – The core unit of work.
+- [[BUG]] – How to handle defects.
 
 ---
 
-# 1) Scrum Team
+## 1) Scrum Team
 
 A **cohesive, self-managing** team focused on one objective at a time: the **Product Goal**.
 

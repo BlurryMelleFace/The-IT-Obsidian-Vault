@@ -1,15 +1,21 @@
 ---
-title: PostgreSQL
 tags:
   - database
   - sql
   - postgres
   - reference
-created: 2025-10-20
-updated: 2025-10-20
+  - cheatsheet
 ---
-> PostgreSQL is an advanced, open-source relational database system known for reliability, SQL compliance, and extensibility.  
+
+# PostgreSQL
+
+> [!INFO]
+> **PostgreSQL** is an advanced, open-source relational database system.  
 > This note summarizes essential SQL commands, psql meta-commands, and best practices.
+
+**Related Notes:**
+- [[Docker]] – Running Postgres in containers.
+- [[AWS]] – RDS connection info.
 
 ---
 

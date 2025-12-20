@@ -1,47 +1,47 @@
+---
+tags:
+  - web
+  - css
+  - design
+  - tools
+  - resources
+---
 
-## Tools Catalog
+# CSS Tools & Resources
 
-###  CSS Gradient Tools
+> [!INFO]
+> Collection of tools for gradients, animations, and icons to speed up frontend development.
 
-- [cssgradient.io](https://cssgradient.io)  
-  → Create linear and radial gradients visually. Includes CSS code export, background patterns, and preview.
-
-- [uiGradients](https://uigradients.com)  
-  → Curated collection of gradient presets with copy-ready CSS.
+**Related Notes:**
+- [[UI Inspiration]] – Design patterns.
+- [[Angular]] – Implementing styles.
 
 ---
 
-###  Timing Functions & Animation Curves
+## 🎨 Gradients & Colors
+- **[cssgradient.io](https://cssgradient.io)**  
+  Visual gradient generator with CSS export.
+- **[uiGradients](https://uigradients.com)**  
+  Curated collection of beautiful color gradients.
 
-- [cubic-bezier.com](https://cubic-bezier.com)  
-  → Fine-tune easing functions with a visual cubic-bezier editor.
+## 🎬 Animation & Easing
+- **[cubic-bezier.com](https://cubic-bezier.com)**  
+  Visualize and create custom easing curves.
+- **[easings.net](https://easings.net)**  
+  Cheat sheet for standard easing functions (ease-in, ease-out, etc.).
+- **[animista.net](https://animista.net/)**  
+  Library of ready-to-use CSS animations.
 
-- [easings.net](https://easings.net)  
-  → Visual reference for standard easing functions in CSS animations and transitions.
+## 📐 Layout & Generators
+- **[CSS Scan Buttons](https://getcssscan.com/css-buttons-examples)**  
+  Copy-paste modern button styles.
+- **[Neumorphism.io](https://neumorphism.io)**  
+  Generate soft UI (neumorphism) shadows.
+- **[Haikei](https://haikei.app/)**  
+  Generate abstract SVG shapes, blobs, and waves.
 
----
-
-### Layout Helpers
-
-- [getcssscan.com/css-buttons-examples](https://getcssscan.com/css-buttons-examples)  
-  → Copy-paste-ready beautiful buttons with modern CSS styles.
-
-- [neumorphism.io](https://neumorphism.io/#e0e0e0)  
-  → Generate soft UI (neumorphic) style shadows.
-
-### Icons & Illustrations
-
-- [tablericons.com](https://tablericons.com/)  
-    → Free, open-source SVG icons. Clean and consistent.
-    
-- [phosphoricons.com](https://phosphoricons.com/)  
-    → Customizable icon library (thin to bold).
-    
-- [heroicons.com](https://heroicons.com/)  
-    → Beautiful, Tailwind-style icons in outline and solid.
-    
-- undraw.co  
-    → Open-source illustrations for every project.
-    
-- [haikei.app](https://haikei.app/)  
-    → Generate abstract SVG backgrounds and blob shapes.
+## 🖼️ Icons
+- **[Tabler Icons](https://tablericons.com/)** – Clean, open-source SVG icons.
+- **[Phosphor Icons](https://phosphoricons.com/)** – Flexible weight/style.
+- **[Heroicons](https://heroicons.com/)** – From Tailwind labs.
+- **[uNDraw](https://undraw.co)** – Open-source illustrations.

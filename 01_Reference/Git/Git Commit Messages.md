@@ -1,111 +1,57 @@
-## Feat
-1. Introduce a new feature:
-   ```shell
-   feat/
-   ```
-   add user authentication
+---
+tags:
+  - git
+  - convention
+  - best-practices
+  - style
+---
 
-## Fix
-1. Fix a bug:
-   ```shell
-   fix/
-   ```
-   resolve issue with login validation
+# Git Commit Messages (Conventional Commits)
 
-## Refactor
-1. Refactor code without changing functionality:
-   ```shell
-   refactor/
-   ```
-   improve data fetching logic
+> [!INFO]
+> **Conventional Commits** provide a standard for creating an explicit commit history.  
+> **Format:** `<type>(<scope>): <subject>`
 
-## Chore
-1. Perform non-functional tasks (e.g., dependency updates):
-   ```shell
-   chore/
-   ```
-   update npm dependencies
+**Related Notes:**
+- [[Git Commands]] – How to execute the commits.
 
-## Docs
-1. Add or update documentation:
-   ```shell
-   docs/
-   ```
-   add API usage guide
+---
 
-## Style
-1. Make formatting changes (no code logic modifications):
-   ```shell
-   style/
-   ```
-   fix linting issues
+## 🌟 Common Types
 
-## Test
-1. Add or update tests:
-   ```shell
-   test/
-   ```
-   add unit tests for UserService
+| Type | Description | Example |
+| :--- | :--- | :--- |
+| **feat** | A new feature | `feat(auth): add google sso login` |
+| **fix** | A bug fix | `fix(api): handle null pointer in user service` |
+| **chore** | Maintenance (no prod code change) | `chore(deps): update react to v18` |
+| **refactor**| Code change that neither fixes a bug nor adds a feature | `refactor(utils): simplify date parsing logic` |
+| **docs** | Documentation only changes | `docs(readme): add installation steps` |
+| **style** | Formatting, missing semi colons, etc; no code change | `style(css): fix indentation in navbar` |
+| **test** | Adding missing tests or correcting existing tests | `test(auth): add unit tests for login` |
+| **ci** | Changes to CI configuration files and scripts | `ci(github): add linting workflow` |
+| **perf** | A code change that improves performance | `perf(image): optimize loading strategy` |
+| **revert** | Reverting a previous commit | `revert: feat(auth): add google sso` |
 
-## Perf
-1. Optimize performance:
-   ```shell
-   perf/
-   ```
-   optimize image loading
+## 🏗️ Structure
 
-## Build
-1. Change the build system or dependencies:
-   ```shell
-   build/
-   ```
-   update Webpack config
+```text
+<type>(<scope>): <subject>
 
-## CI
-1. Update CI/CD scripts or configuration:
-   ```shell
-   ci/
-   ```
-   fix deployment script for production
+<Optional detailed body>
 
-## Revert
-1. Revert a previous commit:
-   ```shell
-   revert/
-   ```
-   revert "feat: add user authentication"
+<Optional footer (e.g., BREAKING CHANGE)>
+```
 
-## Hotfix
-1. Apply an emergency bug fix:
-   ```shell
-   hotfix/
-   ```
-   fix broken API endpoint in production
+### Examples
 
-## Merge
-1. Merge branches:
-   ```shell
-   merge/
-   ```
-   feature/awesome-feature into main
+**Standard Feature:**
+```text
+feat(lang): add polish language support
+```
 
-## Init
-1. Initialize the project:
-   ```shell
-   init/
-   ```
-   initialize project structure
+**Breaking Change:**
+```text
+feat(api): change response format for user endpoint
 
-## Dep
-1. Add or modify dependencies:
-   ```shell
-   dep/
-   ```
-   add lodash as a utility library
-
-## Resolved
-1. Resolve an issue or conflict:
-   ```shell
-   resolved/
-   ```
-   handle merge conflict for main
+BREAKING CHANGE: the user id field is now a string instead of an integer.
+```

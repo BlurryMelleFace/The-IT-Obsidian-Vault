@@ -1,6 +1,20 @@
-##  Description
+---
+tags:
+  - agile
+  - pbi
+  - user-story
+  - requirements
+  - template
+---
 
-```Text
+# PBI (Product Backlog Item) Template
+
+> [!INFO]
+> Standard template for defining User Stories and requirements.
+
+## Description
+
+```markdown
 **User Story:**
 > As a [role],  
 > I want to [goal or action],  
@@ -12,10 +26,13 @@
 
 **Details:**
 - Feature Area: [e.g., iPID Recognition]
-- Iteration: [e.g., Sprint 45 / INC34]
-- Dependencies: [e.g., Symbol Catalog API, UI Component Library]
+- Iteration: [e.g., Sprint 45]
+- Dependencies: [e.g., API, Library]
+```
+
 ## Acceptance Criteria
 
+```markdown
 - [ ] The feature allows users to [...]
 - [ ] The result is persisted and reloaded correctly.
 - [ ] The UI updates dynamically without requiring a manual refresh.

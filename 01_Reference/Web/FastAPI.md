@@ -1,50 +1,57 @@
-## Running a FastAPI Application with Uvicorn
+---
+tags:
+  - web
+  - python
+  - fast-api
+  - framework
+  - backend
+---
 
-### Run the Application
+# FastAPI
 
-1. **Basic Run Command:**
-    
-    ```shell
-    uvicorn run:app --reload
-    ```
-    
-2. **Specify Host and Port:**
-    
-    ```shell
-    uvicorn run:app --host 0.0.0.0 --port 8000
-    ```
-    
-3. **Enable Debug Mode:**
-    
-    ```shell
-    uvicorn run:app --reload --log-level debug
-    ```
-    
-4. **Run with Workers (Production Ready):**
-    
-    ```shell
-    uvicorn run:app --workers 4 --host 0.0.0.0 --port 8000
-    ```
-    
+> [!INFO]
+> **FastAPI** is a modern, fast (high-performance) web framework for building APIs with Python 3.8+ based on standard Python type hints.
 
-### Tips for FastAPI and Uvicorn
+**Related Notes:**
+- [[Python]] – Language foundation.
+- [[Poetry]] – Dependency management.
+- [[Ide]] – Debug configurations for FastAPI.
 
-1. **Define Your Application in `run.py`:** Ensure your file contains:
-    
-    ```python
-    from fastapi import FastAPI
-    
-    app = FastAPI()
-    
-    @app.get("/")
-    def read_root():
-        return {"message": "Hello World"}
-    ```
-    
-2. **Install FastAPI and Uvicorn:**
-    
-    ```shell
-    pip install fastapi uvicorn
-    ```
-    
-3. **Use Environment Variables for Configuration:** Leverage `.env` files or `os.environ` for settings like host, port, and debug options.
+---
+
+## 🚀 Running with Uvicorn
+
+1. **Dev Mode** (Auto-reload):
+   ```shell
+   uvicorn run:app --reload
+   ```
+2. **Specify Host/Port**:
+   ```shell
+   uvicorn run:app --host 0.0.0.0 --port 8000
+   ```
+3. **Debug Logging**:
+   ```shell
+   uvicorn run:app --reload --log-level debug
+   ```
+4. **Production** (Workers):
+   ```shell
+   uvicorn run:app --workers 4 --host 0.0.0.0 --port 8000
+   ```
+
+## 📝 Code Snippet (`run.py`)
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello World"}
+```
+
+## 📦 Install
+```shell
+poetry add fastapi uvicorn
+# OR
+pip install fastapi uvicorn
+```
