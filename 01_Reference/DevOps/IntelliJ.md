@@ -1,117 +1,81 @@
-IntelliJ IDEA – Most Important Keyboard Shortcuts
+---
+tags:
+  - ide
+  - tools
+  - shortcuts
+  - productivity
 ---
 
-## 🖥️ General
+# IntelliJ IDEA
 
-| Action                       | Windows/Linux     | macOS           |
-|-----------------------------|-------------------|-----------------|
-| Search Everywhere           | `Shift` x2        | `Shift` x2      |
-| Find Action                 | `Ctrl + Shift + A`| `Cmd + Shift + A`|
-| Open File                   | `Ctrl + Shift + N`| `Cmd + Shift + O`|
-| Recent Files                | `Ctrl + E`        | `Cmd + E`       |
-| Recent Edited Files         | `Ctrl + Shift + E`| `Cmd + Shift + E`|
+> [!INFO]
+> **IntelliJ IDEA** is a powerful Integrated Development Environment (IDE) for Java and other languages. This note contains critical keyboard shortcuts and tips for productivity.
 
----
-## 📏 Code Folding (Expand / Collapse)
-
-| Action                                  | Windows/Linux       | macOS              |
-| --------------------------------------- | ------------------- | ------------------ |
-| Collapse Current Block                  | `Ctrl + -`          | `Cmd + -`          |
-| Expand Current Block                    | `Ctrl + +`          | `Cmd + +`          |
-| Collapse All                            | `Ctrl + Shift + -`  | `Cmd + Shift + -`  |
-| Expand All                              | `Ctrl + Shift + +`  | `Cmd + Shift + +`  |
-| Fold/Unfold All Methods in Current File | `Ctrl + NumPad -/+` | `Cmd + NumPad -/+` |
-| Expand All On Level                     | Alt + +             | Option + +         |
-
-> 🧠 Tip: Use **`Ctrl + Shift + NumPad +`** to expand everything quickly when opening new code files.
+**Related Notes:**
+- [[Kubernetes]] – Has excellent plugins for K8s.
+- [[Docker]] – Has built-in Docker management.
+- [[Node Tools]] – Supports Node.js development.
 
 ---
-## 🧠 Editing
 
-| Action                 | Windows/Linux           | macOS                      |
-| ---------------------- | ----------------------- | -------------------------- |
-| Auto-Complete          | `Ctrl + Space`          | `Ctrl + Space`             |
-| Duplicate Line/Block   | `Ctrl + D`              | `Cmd + D`                  |
-| Delete Line            | `Ctrl + Y`              | `Cmd + Backspace`          |
-| Move Line Up/Down      | `Shift + Alt + Up/Down` | `Option + Shift + Up/Down` |
-| Comment/Uncomment Line | `Ctrl + /`              | `Cmd + /`                  |
-| Reformat Code          | `Ctrl + Alt + L`        | `Cmd + Option + L`         |
+## 🖥️ General Shortcuts
 
----
+| Action | Windows/Linux | macOS |
+| :--- | :--- | :--- |
+| **Search Everywhere** | `Shift` x2 | `Shift` x2 |
+| **Find Action** | `Ctrl + Shift + A` | `Cmd + Shift + A` |
+| **Open File** | `Ctrl + Shift + N` | `Cmd + Shift + O` |
+| **Recent Files** | `Ctrl + E` | `Cmd + E` |
+| **Recent Locations** | `Ctrl + Shift + E` | `Cmd + Shift + E` |
+
+## 📏 Code Folding
+| Action | Windows/Linux | macOS |
+| :--- | :--- | :--- |
+| **Expand/Collapse Block** | `Ctrl + +/-` | `Cmd + +/-` |
+| **Expand/Collapse All** | `Ctrl + Shift + +/-` | `Cmd + Shift + +/-` |
+| **Fold Methods** | `Ctrl + NumPad -` | `Cmd + NumPad -` |
+
+> 🧠 **Tip:** Use `Ctrl + Shift + NumPad +` to expand everything to get a full view of the file.
+
+## 🧠 Editing & Refactoring
+| Action | Windows/Linux | macOS |
+| :--- | :--- | :--- |
+| **Auto-Complete** | `Ctrl + Space` | `Ctrl + Space` |
+| **Duplicate Line** | `Ctrl + D` | `Cmd + D` |
+| **Delete Line** | `Ctrl + Y` | `Cmd + Backspace` |
+| **Move Line** | `Alt + Shift + Up/Down` | `Opt + Shift + Up/Down` |
+| **Comment Line** | `Ctrl + /` | `Cmd + /` |
+| **Reformat Code** | `Ctrl + Alt + L` | `Cmd + Opt + L` |
+| **Rename** | `Shift + F6` | `Shift + F6` |
 
 ## 🔍 Navigation
-
-| Action                     | Windows/Linux       | macOS             |
-|---------------------------|---------------------|-------------------|
-| Go to Class               | `Ctrl + N`          | `Cmd + O`         |
-| Go to File                | `Ctrl + Shift + N`  | `Cmd + Shift + O` |
-| Go to Symbol              | `Ctrl + Alt + Shift + N` | `Cmd + Option + O` |
-| Go to Line               | `Ctrl + G`          | `Cmd + L`         |
-| Go to Declaration         | `Ctrl + B` or `Ctrl + Click` | `Cmd + B` or `Cmd + Click` |
-
----
+| Action | Windows/Linux | macOS |
+| :--- | :--- | :--- |
+| **Go to Class** | `Ctrl + N` | `Cmd + O` |
+| **Go to Symbol** | `Ctrl + Alt + Shift + N` | `Cmd + Opt + O` |
+| **Go to Line** | `Ctrl + G` | `Cmd + L` |
+| **Find Usages** | `Alt + F7` | `Opt + F7` |
+| **Go to Declaration** | `Ctrl + B` | `Cmd + B` |
 
 ## 🧪 Run & Debug
+| Action | Windows/Linux | macOS |
+| :--- | :--- | :--- |
+| **Run** | `Shift + F10` | `Ctrl + R` |
+| **Debug** | `Shift + F9` | `Ctrl + D` |
+| **Step Over** | `F8` | `F8` |
+| **Step Into** | `F7` | `F7` |
+| **Evaluate Expression** | `Alt + F8` | `Opt + F8` |
 
-| Action                   | Windows/Linux       | macOS             |
-|-------------------------|---------------------|-------------------|
-| Run                     | `Shift + F10`       | `Ctrl + R`        |
-| Debug                   | `Shift + F9`        | `Ctrl + D`        |
-| Step Over               | `F8`                | `F8`              |
-| Step Into               | `F7`                | `F7`              |
-| Evaluate Expression     | `Alt + F8`          | `Option + F8`     |
-
----
-
-## 🧹 Refactoring
-
-| Action                     | Windows/Linux       | macOS             |
-|---------------------------|---------------------|-------------------|
-| Rename                    | `Shift + F6`        | `Shift + F6`      |
-| Extract Variable/Method   | `Ctrl + Alt + V/M`  | `Cmd + Option + V/M` |
-
----
-
-## 🔄 Git Version Control
-
-| Action                                 | Windows/Linux         | macOS               |
-|----------------------------------------|-----------------------|---------------------|
-| Commit Changes                         | `Ctrl + K`            | `Cmd + K`           |
-| Update Project (Pull)                  | `Ctrl + T`            | `Cmd + T`           |
-| VCS Operations Popup                   | `Alt + Backquote (\``)| `Ctrl + V`          |
-| Show VCS Log                           | `Alt + 9`             | `Cmd + 9`           |
-| Push Changes                           | `Ctrl + Shift + K`    | `Cmd + Shift + K`   |
-| View Local Changes                     | `Alt + 9` → Local Changes tab | `Cmd + 9`        |
-| Annotate (Blame)                       | `Ctrl + Alt + Shift + A` | `Cmd + Option + Shift + A` |
-| Compare with Repository Version        | `Ctrl + D` (in diff view) | `Cmd + D`       |
-| Show Diff                              | `Ctrl + D`            | `Cmd + D`           |
-| Resolve Conflicts                      | `Ctrl + Shift + Alt + N` | `Cmd + Shift + Option + N` |
-| Git Branch Popup                       | `Ctrl + Backquote (\``)| `Ctrl + Backquote (\``) |
-
----
-
-## 📂 Tool Windows
-
-| Tool Window               | Windows/Linux     | macOS               |
-|---------------------------|-------------------|---------------------|
-| Project                   | `Alt + 1`         | `Cmd + 1`           |
-| Favorites                 | `Alt + 2`         | `Cmd + 2`           |
-| Find                      | `Alt + 3`         | `Cmd + 3`           |
-| Run                       | `Alt + 4`         | `Cmd + 4`           |
-| Debug                     | `Alt + 5`         | `Cmd + 5`           |
-| Problems                  | `Alt + 6`         | `Cmd + 6`           |
-| Structure                 | `Ctrl + F12`      | `Cmd + F12`         |
-| Terminal                  | `Alt + F12`       | `Option + F12`      |
-| Version Control           | `Alt + 9`         | `Cmd + 9`           |
-| TODO                     | `Alt + 6`         | `Cmd + 6`           |
-| Services (e.g., Docker)   | `Alt + 8`         | `Cmd + 8`           |
-| Toggle All Tool Windows   | `Ctrl + Shift + F12` | `Cmd + Shift + F12` |
-
+## 🔄 Git Integration
+| Action | Windows/Linux | macOS |
+| :--- | :--- | :--- |
+| **Commit** | `Ctrl + K` | `Cmd + K` |
+| **Push** | `Ctrl + Shift + K` | `Cmd + Shift + K` |
+| **Update/Pull** | `Ctrl + T` | `Cmd + T` |
+| **VCS Operations** | `Alt + Backtick` | `Ctrl + V` |
+| **Git Log** | `Alt + 9` | `Cmd + 9` |
 
 ## 💡 Productivity Tips
-
-- Use `Shift` twice to open **Search Everywhere**
-- Enable **Presentation Mode** via `View > Appearance > Enter Presentation Mode`
-- Use `Alt + Enter` for **Quick Fixes and Intentions**
-
----
+- **Presentation Mode**: `View > Appearance > Enter Presentation Mode` is great for demos.
+- **Quick Fixes**: ALWAYS try `Alt + Enter` when you see a warning or error.
+- **Terminal**: Open internal terminal with `Alt + F12` (Win) or `Opt + F12` (Mac).

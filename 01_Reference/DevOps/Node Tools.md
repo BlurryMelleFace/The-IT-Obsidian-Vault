@@ -1,143 +1,100 @@
+---
+tags:
+  - devops
+  - nodejs
+  - javascript
+  - npm
+  - nvm
+  - cheatsheet
+---
 
-## NVM (Node Version Manager)
+# Node Tools (NVM & NPM)
 
-### Install & Use Node Versions
+> [!INFO]
+> Essential commands for managing **Node.js** versions with **NVM** and project dependencies with **NPM**.
 
-1. **List available Node.js versions:**
+**Related Notes:**
+- [[Docker]] – Dockerizing Node.js apps.
+- [[IntelliJ]] – Great IDE for Node development.
+
+---
+
+## 🟢 NVM (Node Version Manager)
+
+### Install & Manage Versions
+1. **List Available (Remote)**:
    ```shell
    nvm ls-remote
    ```
-
-2. **Install a specific Node.js version:**
+2. **Install Version**:
    ```shell
    nvm install <version>
    ```
-
-3. **Install latest LTS version:**
-   ```shell
-   nvm install --lts
-   ```
-
-4. **Use a specific Node.js version:**
+   *Example:* `nvm install 18` or `nvm install --lts`
+3. **Use Version**:
    ```shell
    nvm use <version>
    ```
-
-5. **Set a default Node.js version:**
+4. **Set Default Version**:
    ```shell
    nvm alias default <version>
    ```
-
-6. **Show installed Node.js versions:**
+5. **List Installed (Local)**:
    ```shell
    nvm ls
    ```
-
-7. **Check current Node.js version:**
-   ```shell
-   node -v
-   ```
-
-8. **Check currently active `nvm` version:**
+6. **Check Current Version**:
    ```shell
    nvm current
    ```
 
 ---
 
-## NPM (Node Package Manager)
+## 📦 NPM (Node Package Manager)
 
-### Init & Install
-
-1. **Initialize a new project (create `package.json`):**
+### Project Setup & Install
+1. **Initialize Project**:
    ```shell
-   npm init
+   npm init -y
    ```
-
-2. **Install all dependencies from `package.json`:**
+2. **Install Dependencies** (from `package.json`):
    ```shell
    npm install
    ```
-
-3. **Install a specific package:**
+3. **Install Package**:
    ```shell
    npm install <package-name>
    ```
-
-4. **Install a package as a dev dependency:**
+4. **Install Dev Dependency**:
    ```shell
-   npm install <package-name> --save-dev
+   npm install -D <package-name>
    ```
-
-5. **Install a global package:**
+5. **Install Global Package**:
    ```shell
    npm install -g <package-name>
    ```
 
-6. **Install a specific version of a package:**
-   ```shell
-   npm install <package-name>@<version>
-   ```
-
 ### Update & Remove
-
-7. **Update all packages:**
+6. **Update Packages**:
    ```shell
    npm update
    ```
-
-8. **Update a specific package:**
-   ```shell
-   npm update <package-name>
-   ```
-
-9. **Uninstall a package:**
+7. **Uninstall Package**:
    ```shell
    npm uninstall <package-name>
    ```
 
-10. **Uninstall a global package:**
+### info & Scripts
+8. **List Installed Packages**:
    ```shell
-   npm uninstall -g <package-name>
+   npm list --depth=0
    ```
-
-### List & Info
-
-11. **List all installed local packages:**
-   ```shell
-   npm list
-   ```
-
-12. **List globally installed packages:**
-   ```shell
-   npm list -g --depth=0
-   ```
-
-13. **View outdated packages:**
+9. **View Outdated**:
    ```shell
    npm outdated
    ```
-
-14. **Show details of a package:**
-   ```shell
-   npm view <package-name>
-   ```
-
-### Scripts & Run
-
-15. **Run a script defined in `package.json`:**
-   ```shell
-   npm run <script-name>
-   ```
-
-16. **Run tests (if `test` script is defined):**
-   ```shell
-   npm test
-   ```
-
-17. **Add custom script to `package.json`:**
-   ```json
-   "scripts": {
-     "start": "node index.js"
-   }
-   ```
+10. **Run Scripts**:
+    ```shell
+    npm run <script-name>
+    ```
+    *Common:* `npm start`, `npm test`, `npm run build`.
