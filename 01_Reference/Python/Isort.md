@@ -1,78 +1,61 @@
-## Sort
+---
+tags:
+  - python
+  - imports
+  - sorter
+  - style
+  - code-quality
+---
 
-1. **Sort all file imports in a directory:**
+# Isort (Import Sorter)
+
+> [!INFO]
+> **isort** is a Python utility / library to sort imports alphabetically, and automatically separated into sections and by type.
+
+**Related Notes:**
+- [[Black]] – Isort should be configured to be compatible with Black.
+- [[Poetry]] – Used to manage isort as a dev dependency.
+
+---
+
+## 🧹 Sorting
+1. **Sort Directory**:
    ```shell
    poetry run isort .
    ```
-
-2. **Sort imports in a single file:**
+2. **Sort Single File**:
    ```shell
    isort <file_name>
    ```
-
-3. **Sort imports and check for any needed changes (dry run):**
+3. **Check Only** (Dry Run):
    ```shell
    isort --check-only .
    ```
-
-4. **Sort imports with verbose output:**
+4. **Verbose Output**:
    ```shell
    isort . --verbose
    ```
 
-## Configuration
-
-1. **Specify a custom configuration file:**
+## ⚙️ Configuration & Profiles
+1. **Black Compatibility** (Crucial if using Black):
    ```shell
-   isort --settings-path <path_to_config_file>
+   isort . --profile black
    ```
-
-2. **Ignore specific files or directories:**
+2. **Django Profile**:
+   ```shell
+   isort --profile django
+   ```
+3. **Skip Files**:
    ```shell
    isort --skip <file_or_directory>
    ```
 
-3. **Use default profiles for specific frameworks (e.g., Django):**
-   ```shell
-   isort --profile django
-   ```
-
-## Formatting
-
-1. **Sort and format using Black compatibility:**
-   ```shell
-   isort . --profile black
-   ```
-
-2. **Ensure only imports are sorted without modifying code structure:**
-   ```shell
-   isort . --force-single-line-imports
-   ```
-
-## Linting
-
-1. **Check for incorrectly sorted imports without fixing:**
-   ```shell
-   isort . --check-only
-   ```
-
-2. **Get detailed output for linting errors:**
+## 🐞 Linting & Debug
+1. **Check for Sort Errors**:
    ```shell
    isort . --check-only --verbose
    ```
-
-## Miscellaneous
-
-1. **Show version of ISort:**
+2. **Show Version**:
    ```shell
    isort --version
    ```
-
-2. **Show help for all commands:**
-   ```shell
-   isort --help
-   ```
-
----
-
-Feel free to copy and save this content into a file named `isort_cheat_sheet.md`.

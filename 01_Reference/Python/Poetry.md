@@ -1,123 +1,82 @@
+---
+tags:
+  - python
+  - package-manager
+  - dependency-management
+  - venv
+  - cheatsheet
+---
 
-## Show
+# Poetry
 
-1. **Show Dependencies:**
-   ```shell
-poetry show --tree
-   ```
-## New Package
+> [!INFO]
+> **Poetry** is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
-1. **Create a new Poetry project:**
+**Related Notes:**
+- [[Virtual Environment]] – Poetry manages its own virtual environments effectively.
+- [[Black]] & [[Isort]] – Common dev dependencies managed by Poetry.
+- [[Docker]] – Often used with Poetry for reproducible builds.
+
+---
+
+## 📦 Project Setup
+1. **New Project**:
    ```shell
    poetry new <project_name>
    ```
-
-2. **Create a new project in the current directory:**
+2. **Init in Current Dir**:
    ```shell
-   poetry new --src .
+   poetry init
    ```
 
-3. **Install dependencies specified in `pyproject.toml`:**
+## 📥 Dependencies
+1. **Install All** (from `poetry.lock` or `pyproject.toml`):
    ```shell
    poetry install
    ```
-
-4. **Update dependencies in `pyproject.toml`:**
-   ```shell
-   poetry update
-   ```
-
-## Add/Remove Dependencies
-
-1. **Add a dependency:**
+2. **Add Package**:
    ```shell
    poetry add <package_name>
    ```
-
-2. **Add a development dependency:**
+3. **Add Dev Dependency**:
    ```shell
-   poetry add --dev <package_name>
+   poetry add --group dev <package_name>
    ```
-
-3. **Remove a dependency:**
+   *(Old syntax: `poetry add -D <package_name>`)*
+4. **Remove Package**:
    ```shell
    poetry remove <package_name>
    ```
+5. **Show Dependency Tree**:
+   ```shell
+   poetry show --tree
+   ```
 
-## Environment Management
-
-1. **Check the status of the virtual environment:**
+## 🐍 Environment & Execution
+1. **Spawn Shell**:
+   ```shell
+   poetry shell
+   ```
+2. **Run Command** (without entering shell):
+   ```shell
+   poetry run <command>
+   ```
+   *Example:* `poetry run python app.py`
+3. **Env Info**:
    ```shell
    poetry env info
    ```
-
-2. **Remove the virtual environment:**
+4. **List Envs**:
    ```shell
-   poetry env remove python
+   poetry env list
    ```
 
-3. **Use a specific Python version for the environment:**
-   ```shell
-   poetry env use <python_version>
-   ```
-
-## Running Commands
-
-1. **Run a script defined in `pyproject.toml`:**
-   ```shell
-   poetry run <script_name>
-   ```
-
-2. **Run Python code within the Poetry environment:**
-   ```shell
-   poetry run python <script.py>
-   ```
-
-3. **Run tests with pytest:**
-   ```shell
-   poetry run pytest
-   ```
-
-## Publishing
-
-1. **Build the package:**
+## 🚀 Publishing
+1. **Build Package**:
    ```shell
    poetry build
    ```
-
-2. **Publish to PyPI:**
+2. **Publish to PyPI**:
    ```shell
-   poetry publish --username <username> --password <password>
-   ```
-
-3. **Publish to a custom repository:**
-   ```shell
-   poetry publish --repository <repository_name>
-   ```
-
-## Configuration and Miscellaneous
-
-1. **Show all Poetry configuration:**
-   ```shell
-   poetry config --list
-   ```
-
-2. **Set a configuration value globally:**
-   ```shell
-   poetry config <key> <value> --global
-   ```
-
-3. **View the lock file for dependency resolution:**
-   ```shell
-   poetry lock
-   ```
-
-4. **Get the version of Poetry:**
-   ```shell
-   poetry --version
-   ```
-
-5. **Get help for any command:**
-   ```shell
-   poetry help <command>
+   poetry publish
    ```

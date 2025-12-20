@@ -1,65 +1,53 @@
-## Sort
+---
+tags:
+  - python
+  - formatter
+  - pep8
+  - style
+  - code-quality
+---
 
-1. **Format all files in a directory:**
+# Black (The Uncompromising Code Formatter)
+
+> [!INFO]
+> **Black** is "the uncompromising Python code formatter." By using it, you agree to cede control over minutiae of hand-formatting. It keeps your code compliant with PEP 8.
+
+**Related Notes:**
+- [[Poetry]] – Easily run via `poetry run black`.
+- [[Isort]] – Often used together; Black should run after isort.
+
+---
+
+## 🖌️ Formatting
+1. **Format Directory** (Recursive):
    ```shell
    poetry run black .
    ```
-
-2. **Format a specific file:**
+2. **Format Single File**:
    ```shell
    black <file_name>
    ```
-
-3. **Check if files need formatting (dry run):**
+3. **Dry Run** (Check only):
    ```shell
    black --check .
    ```
-
-4. **Format files and show the diff:**
+4. **Show Diff** (No changes):
    ```shell
    black --diff .
    ```
 
-## Line Length
-
-1. **Set a custom line length:**
+## ⚙️ Configuration & Options
+1. **Custom Line Length** (Default is 88):
    ```shell
-   black . --line-length <number>
+   black . --line-length 100
    ```
-
-## Exclude Files or Directories
-
-1. **Exclude specific files or directories:**
+2. **Exclude Path**:
    ```shell
    black . --exclude <pattern>
    ```
-
-## Configuration
-
-1. **Use a configuration file (pyproject.toml):**
+3. **Config in `pyproject.toml`**:
    ```toml
    [tool.black]
    line-length = 88
    skip-string-normalization = true
-   ```
-   Then, run:
-   ```shell
-   black .
-   ```
-
-## Miscellaneous
-
-1. **Run Black in verbose mode:**
-   ```shell
-   black . --verbose
-   ```
-
-2. **Show Black's version:**
-   ```shell
-   black --version
-   ```
-
-3. **Get help for Black commands:**
-   ```shell
-   black --help
    ```

@@ -1,99 +1,74 @@
-## Creating a Virtual Environment
+---
+tags:
+  - python
+  - venv
+  - environment
+  - isolation
+  - cheatsheet
+---
 
-1. **Using `venv` (Built-in Python Module):**
-    
-    ```shell
-    python -m venv <env_name>
-    ```
-    
-2. **Using `virtualenv` (External Tool):**
-    
-    ```shell
-    virtualenv <env_name>
-    ```
-    
-3. **Specifying a Python Version:**
-    
-    ```shell
-    python3.8 -m venv <env_name>
-    ```
-    
+# Python Virtual Environments
 
-## Activating a Virtual Environment
+> [!INFO]
+> A **Virtual Environment** is an isolated Python environment that allows you to manage dependencies for different projects separately, avoiding version conflicts.
 
-1. **Windows (Command Prompt):**
-    
-    ```shell
-    <env_name>\Scripts\activate
-    ```
-    
-2. **Windows (PowerShell):**
-    
-    ```shell
-    .\<env_name>\Scripts\Activate.ps1
-    ```
-    
-3. **macOS/Linux:**
-    
-    ```shell
-    source <env_name>/bin/activate
-    ```
-    
+**Related Notes:**
+- [[Poetry]] – Modern tool that handles virtual environments automatically.
+- [[Docker]] – Provides container-level isolation (an alternative or complement).
 
-## Deactivating a Virtual Environment
+---
 
-To deactivate, simply run:
+## 🐍 Built-in `venv`
+1. **Create Env**:
+   ```shell
+   python -m venv <env_name>
+   ```
+   *Standard name is often `.venv`*
+2. **Activate (Windows PowerShell)**:
+   ```powershell
+   .\<env_name>\Scripts\Activate.ps1
+   ```
+3. **Activate (macOS/Linux)**:
+   ```shell
+   source <env_name>/bin/activate
+   ```
+4. **Deactivate**:
+   ```shell
+   deactivate
+   ```
 
-```shell
-deactivate
-```
+## 🧬 Using `virtualenv` (Legacy/External)
+1. **Create Env**:
+   ```shell
+   virtualenv <env_name>
+   ```
 
-## Deleting a Virtual Environment
+## 📦 Managing with Poetry
+> *See also: [[Poetry]]*
 
-1. **Delete the Folder:**
-    
-    ```shell
-    rm -rf <env_name>
-    ```
-    
+1. **Info**:
+   ```shell
+   poetry env info
+   ```
+2. **Remove Env**:
+   ```shell
+   poetry env remove python
+   ```
+3. **Use Specific Python**:
+   ```shell
+   poetry env use /path/to/python
+   ```
 
-## Managing Virtual Environments with `poetry`
-
-1. **Check the Status of the Virtual Environment:**
-    
-    ```shell
-    poetry env info
-    ```
-    
-2. **Remove a Virtual Environment:**
-    
-    ```shell
-    poetry env remove python
-    ```
-    
-3. **Use a Specific Python Version:**
-    
-    ```shell
-    poetry env use <python_version>
-    ```
-    
-
-## Useful Tips
-
-1. **List All Installed Python Versions:**
-    
-    ```shell
-    pyenv versions
-    ```
-    
-2. **Switch Python Version (Using `pyenv`):**
-    
-    ```shell
-    pyenv global <version>
-    ```
-    
-3. **Verify Active Python Version:**
-    
-    ```shell
-    python --version
-    ```
+## 💡 Pyenv (Python Version Management)
+1. **List Versions**:
+   ```shell
+   pyenv versions
+   ```
+2. **Set Global Version**:
+   ```shell
+   pyenv global <version>
+   ```
+3. **Set Local Directory Version**:
+   ```shell
+   pyenv local <version>
+   ```
