@@ -1,3 +1,16 @@
+---
+tags:
+  - project
+  - agile
+  - sprint-review
+  - planning
+---
+
+# Sprint Review Planning
+
+> [!INFO]
+> Detailed breakdown of PBIs, UI structures, and sprint goals for the review.
+
 # **1. High-Level UI Structure of PBIs & Tasks**
 
 ## **A. Symbol Creation & Validation Flow**
