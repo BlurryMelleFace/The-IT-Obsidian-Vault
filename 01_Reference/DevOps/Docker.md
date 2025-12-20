@@ -1,3 +1,21 @@
+---
+tags:
+  - devops
+  - docker
+  - containers
+---
+
+# Docker
+
+> [!INFO]
+> **Docker** is a platform for developing, shipping, and running applications in containers. It is the fundamental runtime often orchestrated by [[Kubernetes]].
+
+**Related:**
+- [[Kubernetes]]
+
+
+---
+
 ## Login
 1.  docker login into the siemens package registry 
 ```shell

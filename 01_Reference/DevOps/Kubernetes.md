@@ -1,175 +1,168 @@
-## Get
-1. Get pod names in the default namespace:
+---
+tags:
+  - devops
+  - kubernetes
+  - k8s
+  - containers
+  - cheatsheet
+---
+
+# Kubernetes (K8s)
+
+> [!INFO]
+> **Kubernetes** is an open-source container orchestration system for automating software deployment, scaling, and management. It is often used to manage clusters of containers built with [[Docker]].
+
+**Related Notes:**
+- [[Docker]] – Container runtime and image building.
+- [[AWS]] – Cloud provider resources (often used with EKS).
+
+
+---
+
+## 🔍 Get Resources
+1. **Get pod names** (default namespace):
    ```shell
    kubectl get pods -n default
    ```
 
-2. Get Deployments
+2. **Get Deployments**:
    ```shell
    kubectl get deployments -n default
    ```
 
-3. Get persistent volume claim status:
+3. **Get Persistent Volume Claims (PVC)**:
    ```shell
    kubectl get pvc -n <ns>
    ```
 
-4. Get all services:
+4. **Get all Services**:
    ```shell
    kubectl get services -n <ns>
    ```
 
-5. Get deployments in a namespace:
-   ```shell
-   kubectl get deployments -n <ns>
-   ```
-
-6. Get nodes in the cluster:
+5. **Get Nodes**:
    ```shell
    kubectl get nodes -n <ns>
    ```
 
-7. Get details of a specific resource:
+6. **Describe Resource** (Detailed view):
    ```shell
    kubectl describe <resourceType> <resourceName>
    ```
 
-8. Get all namespaces in a cluster
+7. **Get Namespaces**:
    ```shell
    kubectl get ns
    ```
-   
-9. Get Secrets
+
+8. **Get Secrets**:
    ```shell
    kubectl get secret -n <ns>
    ```
 
-10. Get Secrets and decode (example database)
+9. **Get & Decode Secret** (e.g., postgres password):
    ```shell
-kubectl get secret -n <ns> postgresql -o jsonpath='{.data.postgres-password}' | base64 --decode && echo
-```
-## Execute
-1. Look inside a Kubernetes pod (open a shell):
+   kubectl get secret -n <ns> postgresql -o jsonpath='{.data.postgres-password}' | base64 --decode && echo
+   ```
+
+## ⚡ Execute & Interact
+1. **Shell into a Pod**:
    ```shell
    kubectl exec -it -n ipid <pod-name> -- /bin/bash
    ```
 
-2. Run a single command in a pod:
+2. **Run Single Command**:
    ```shell
    kubectl exec <pod-name> -- <command> -n default
    ```
-## Debug
-1. Describe a problem in a pod:
-   ```shell
-   kubectl describe pod <pod-name>
-   ```
 
-2. View logs of a specific pod:
-   ```shell
-   kubectl logs <pod-name> -n default
-   ```
-
-3. Follow live logs of a pod:
-   ```shell
-   kubectl logs -f <pod-name>
-   ```
-
-4. Debug a container in a pod:
+3. **Debug a specific container** (multi-container pod):
    ```shell
    kubectl exec -it <pod-name> --container <container-name> -- /bin/bash
    ```
 
-## Storage
+## 🐞 Debugging
+1. **Describe Pod** (Check events/errors):
+   ```shell
+   kubectl describe pod <pod-name>
+   ```
 
-1. Get storage classes in the cluster:
+2. **View Logs**:
+   ```shell
+   kubectl logs <pod-name> -n default
+   ```
+
+3. **Follow Live Logs** (`-f`):
+   ```shell
+   kubectl logs -f <pod-name>
+   ```
+
+## 💾 Storage
+1. **Get Storage Classes**:
    ```shell
    kubectl get storageclass
    ```
 
-2. Get persistent volumes in the cluster:
+2. **Get Persistent Volumes (PV)**:
    ```shell
    kubectl get pv
    ```
 
-## Create
-1. Create a resource from a YAML file:
+## 🛠 Create & Modify
+1. **Apply from YAML** (Create or Update):
    ```shell
    kubectl apply -f <file.yaml>
    ```
 
-2. Create a namespace:
+2. **Create Namespace**:
    ```shell
    kubectl create namespace <namespace-name>
    ```
 
-3. Expose a deployment as a service:
+3. **Expose Deployment** (Create Service):
    ```shell
    kubectl expose deployment <deployment-name> --type=<service-type> --port=<port>
    ```
-   ## Delete
-1. Delete a pod:
-   ```shell
-   kubectl delete pod <pod-name> -n default
-   ```
 
-2. Delete a namespace:
-   ```shell
-   kubectl delete namespace <namespace-name>
-   ```
-
-3. Delete a resource using a YAML file:
-   ```shell
-   kubectl delete -f <file.yaml>
-   ```
-
-4. Delete the entire deployment
-   ```shell
-   kubectl delete deployment -n default
-   ```
-   
-5. Delete all pods
-   ```shell
-   kubectl delete pods --all -n ipid
-   ```
-## Miscellaneous
-1. Scale a deployment:
+4. **Scale Deployment**:
    ```shell
    kubectl scale deployment <deployment-name> --replicas=<number>
    ```
 
-2. Apply changes to a resource:
+## 🗑 Delete
+1. **Delete Pod**:
    ```shell
-   kubectl apply -f <file.yaml>
+   kubectl delete pod <pod-name> -n default
    ```
 
-3. View cluster information:
+2. **Delete Resource from YAML**:
+   ```shell
+   kubectl delete -f <file.yaml>
+   ```
+
+3. **Delete All Pods in Namespace** (Force Restart):
+   ```shell
+   kubectl delete pods --all -n ipid
+   ```
+
+## ℹ️ Misc & Context
+1. **Cluster Info**:
    ```shell
    kubectl cluster-info
    ```
 
-4. Check resource usage:
+2. **Resource Usage (Metrics)**:
    ```shell
    kubectl top nodes
    kubectl top pods
    ```
 
-5. Set a context for kubectl commands:
+3. **Switch Context**:
    ```shell
    kubectl config use-context <context-name>
    ```
 
-6. View current context:
+4. **Show Current Context**:
    ```shell
    kubectl config current-context
-   ```
-
-## IPID
-
-1. See the Pods:
-   ```shell
-   kubectl get pods -n ipid
-   ```
-2. Restart all the Pods:
-   ```shell
-   kubectl delete pods --all -n ipid
    ```
