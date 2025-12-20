@@ -8,6 +8,8 @@ tags:
 
 # Acceptance Criteria Prompt
 
+Test
+
 > [!TIP]
 > Use this prompt to generate rigorous test cases (Gherkin style) for your User Stories.
 
