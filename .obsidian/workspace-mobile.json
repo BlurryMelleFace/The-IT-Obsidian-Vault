@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "01_Reference/DevOps/AWS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -155,7 +155,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5f6b1dee22ce7561",
+  "active": "79fe081f40853fe9",
   "lastOpenFiles": [
     "03_Projects/Sprint-Current/temporary_task_manual.md",
     "05_Weiterbildungen/Rettungssanitäter/Ablauf des Lehrgangs.md",
