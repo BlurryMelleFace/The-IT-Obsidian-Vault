@@ -5,4 +5,3 @@ tags:
   - sprint-review
   - planning
 ---
-Gut syn

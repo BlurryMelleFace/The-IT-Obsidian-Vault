@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Projects/Sprint-Current/temporary_sprint_review.md",
+                "file": "01_Reference/Agile/Workitems/Acceptance Criteria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "temporary_sprint_review"
+              "title": "Acceptance Criteria"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "03_Projects/Sprint-Current/temporary_refinement.md",
+            "file": "01_Reference/Agile/Workitems/Acceptance Criteria.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -157,6 +157,13 @@
   },
   "active": "79fe081f40853fe9",
   "lastOpenFiles": [
+    "01_Reference/DevOps/Kubernetes.md",
+    "01_Reference/Agile/Workitems/Acceptance Criteria.md",
+    "03_Projects/Sprint-Current/temporary_sprint_review.md",
+    "00_Secret/credentials.placeholder.md",
+    "01_Reference/DevOps/Docker.md",
+    "01_Reference/Python/Poetry.md",
+    "03_Projects/Sprint-Current/temporary_task_manual.md",
     "03_Projects/Sprint-Current/temporary_refinement.md",
     "01_Reference/Database/PostgresSQL.md",
     "Index.md",
