@@ -32,8 +32,8 @@ for (let group of pages) {
 const pages = dv.pages('"02_Prompts"')
 	.groupBy(p => {
 	    const folder = p.file.folder;
-	    return folder === "02_Promts" ? "" 
-	    : folder.replace("02_Promts/", "");
+	    return folder === "02_Prompts" ? "" 
+	    : folder.replace("02_Prompts/", "");
 	});
 
 for (let group of pages) {
@@ -51,7 +51,7 @@ const pages = dv.pages('"03_Projects"')
 	.groupBy(p => {
 	    const folder = p.file.folder;
 	    return folder === "03_Projects" ? "" 
-	    : folder.replace("03_Projects/", "");
+	    // : folder.replace("03_Projects/", "");
 	});
 
 for (let group of pages) {

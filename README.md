@@ -10,7 +10,7 @@ This vault is a collection of markdown files organized to support development, d
 ---
 - **00_Secret** – Private credentials and secrets (restricted access)
 - **01_Reference** – Technical reference materials (e.g., Git, Docker, FastAPI)
-- **02_Promts** – Prompt templates and construction kits
+- **02_Prompts** – Prompt templates and construction kits
 - **03_Projects** – Active and archived project documentation
 - **04_Workflows** – Workflow specifications and process documentation
 ---
