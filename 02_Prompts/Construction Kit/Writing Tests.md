@@ -11,6 +11,10 @@ tags:
 > [!INFO]
 > A modular kit for building test generation prompts. Copy the sections you need.
 
+**Related Notes:**
+- [[Dev]] – For general development prompts.
+- [[Python]] – For Pytest context.
+
 ## 🧱 1. Basic Context
 ```plaintext
 For the following prompt, I have appended some files that you need to review to understand the topic.

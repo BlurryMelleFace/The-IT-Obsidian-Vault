@@ -12,6 +12,9 @@ tags:
 > [!INFO]
 > Template for generating a Sprint Review summary from journal entries.
 
+**Related Notes:**
+- [[Scrum]] – For Sprint Review context.
+
 ## Prompt Template
 
 ```text

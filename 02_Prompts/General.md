@@ -11,6 +11,10 @@ tags:
 > [!INFO]
 > Shortcuts for rewriting, summarizing, and polishing general text.
 
+**Related Notes:**
+- [[Dev]] – For development-specific prompts.
+- [[Learning]] – For explanation and understanding.
+
 ```text
 Can you explain this in a more thorough way, with examples:
 ```

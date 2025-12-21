@@ -12,6 +12,9 @@ tags:
 > [!INFO]
 > Template for generating a Sprint Retrospective summary from journal entries.
 
+**Related Notes:**
+- [[Scrum]] – For Retrospective context.
+
 
 ## Prompt Template
 

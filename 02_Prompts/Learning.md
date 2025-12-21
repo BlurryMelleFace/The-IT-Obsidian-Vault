@@ -11,6 +11,11 @@ tags:
 > [!INFO]
 > Prompts designed to help break down complex topics and accelerate learning.
 
+**Related Notes:**
+- [[Docker]], [[Kubernetes]] – For infrastructure topics.
+- [[Python]] – For learning language concepts.
+- [[General]] – For general text improvement.
+
 ```text
 Break this down as if I'm a beginner with no prior knowledge:
 ```
