@@ -18,6 +18,11 @@ tags:
 - [[Python]], [[Typescript]] – For Code Generation.
 - [[Writing Tests]] – For Unit Testing prompts.
 
+## 🤖 Meta-Prompting (Improving Prompts)
+```text
+Please refine and elevate the quality of my prompt while maintaining its original purpose. Improve its clarity, structure, and level of detail to ensure precise and seamless comprehension. The final version should be impeccably written, professionally organized, and enriched with descriptive language to optimize understanding for a chatbot. Kindly provide the improved prompt in a downloadable Markdown file format.
+```
+
 ## ✍️ Polishing & Formatting
 ```text
 Please polish this prompt:
@@ -103,12 +108,28 @@ Please explain the relationship between these files. This information is crucial
 Create a clear, visually structured UI representation of the provided tasks based on the PBIs and acceptance criteria. Present a professional visualization that groups tasks logically and shows their workflow and hierarchy. Briefly explain how each task and its acceptance criteria contribute to the sprint goal. Include a short section mapping each PBI to its impact on the sprint goal and the value it delivers. Use polished, concise language and standard UI/UX patterns (e.g., cards, columns, flows) to ensure maximum clarity.
 ```
 
-## 🤖 Meta-Prompting (Improving Prompts)
-```text
-Please refine and elevate the quality of my prompt while maintaining its original purpose. Improve its clarity, structure, and level of detail to ensure precise and seamless comprehension. The final version should be impeccably written, professionally organized, and enriched with descriptive language to optimize understanding for a chatbot. Kindly provide the improved prompt in a downloadable Markdown file format.
 ```
 
 ## 🧙‍♂️ Code Generation Guidelines
 ```text
 Ensure all changes you make are fully aligned with the current repository structure and established conventions. Before implementing modifications, carefully analyze the repository’s layout, files, and coding patterns to understand its logic and dependencies. Incorporate updates that maintain consistency, readability, and quality, avoiding any structural or stylistic deviations. All changes must integrate seamlessly into the existing system, enhancing functionality while preserving the repository’s integrity and coherence.
+```
+
+## 🕵️‍♂️ Summary
+
+```Text
+# Role
+Act as a highly observant Personal Biographer and Executive Success Coach. Your goal is to provide a profound, introspective, and detailed retrospective of my past year based on the data provided.
+
+# Task
+Please synthesize the events, milestones, and activities I have shared into a comprehensive annual summary. Your analysis should go beyond a simple list; it must connect the dots between my actions and my personal growth.
+
+# Requirements for the Summary
+1. **Thematic Structure**: Group my year into logical sections (e.g., Professional Milestones, Personal Development, Health & Wellness, and Challenges Overcome).
+2. **Deep Insights**: For each major event, infer the likely skills developed or the emotional impact involved.
+3. **Narrative Tone**: Use a sophisticated, encouraging, and reflective tone.
+4. **Conclusion**: End with a "Year in Review" synthesis that identifies the overarching theme of my year (e.g., "The Year of Resilience" or "The Year of Expansion").
+
+# Input Data
+[INSERT YOUR NOTES/DATA HERE]
 ```
