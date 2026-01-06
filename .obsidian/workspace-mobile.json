@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "108f0c5a26766537",
+        "id": "5e0849554fe38956",
         "type": "tabs",
         "children": [
           {
-            "id": "06d73e96fb6caf87",
+            "id": "418038b64937edad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:devops",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -86,7 +86,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "1aac48c8bc239368",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "02_Prompts/Dev.md",
+            "file": "01_Reference/Agile/Workitems/BUG.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -154,34 +154,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "06d73e96fb6caf87",
+  "active": "418038b64937edad",
   "lastOpenFiles": [
-    "01_Reference/DevOps/Redis.md",
-    "01_Reference/DevOps/Kubernetes.md",
-    "01_Reference/DevOps/Docker.md",
-    "05_Weiterbildungen/Rettungssanitäter/Ablauf des Lehrgangs.md",
-    "01_Reference/Python/Poetry.md",
-    "01_Reference/Python/Virtual Environment.md",
-    "01_Reference/Web/FastAPI.md",
-    "01_Reference/Python/Python.md",
     "01_Reference/Web/Typescript.md",
-    "02_Prompts/General.md",
-    "01_Reference/DevOps/AWS.md",
-    "04_Workflows/Token Vending & AWS Credentials.md",
-    "02_Prompts/Learning.md",
-    "03_Projects/Sprint-Current/temporary_sprint_review.md",
-    "Index.md",
-    "01_Reference/Web/Angular.md",
-    "05_Weiterbildungen/Rettungssanitäter/Argumentationspunkte für den Rettungsdienst.md",
-    "02_Prompts/Construction Kit/Writing Tests.md",
-    "02_Prompts/Construction Kit/Sprint Summary.md",
-    "01_Reference/DevOps/Node Tools.md",
-    "01_Reference/Python/Black.md",
-    "01_Reference/Agile/Workitems/BUG.md",
-    "aww.md",
-    "01_Reference/Database/PostgresSQL.md",
-    "01_Reference/Agile/Scrum.md",
     "02_Prompts/Dev.md",
-    "Untitled.base"
+    "01_Reference/Web/FastAPI.md",
+    "01_Reference/Python/Isort.md",
+    "01_Reference/Python/Poetry.md",
+    "01_Reference/Python/Python.md",
+    "01_Reference/DevOps/IntelliJ.md",
+    "01_Reference/Git/Git Commands.md",
+    "02_Prompts/General.md",
+    "02_Prompts/Learning.md",
+    "02_Prompts/Construction Kit/Writing Tests.md",
+    "01_Reference/Configuration/IDE.md",
+    "01_Reference/DevOps/Docker.md",
+    "01_Reference/Python/Black.md",
+    "01_Reference/DevOps/Kubernetes.md",
+    "Index.md",
+    "01_Reference/Git/Git Commit Messages.md",
+    "01_Reference/Agile/Workitems/BUG.md",
+    "03_Projects/IPID/Summary 2025.md",
+    "03_Projects/Sprint-Current/temporary_refinement.md",
+    "Untitled.base",
+    "03_Projects/Sprint-Current/temporary_task_ai.md",
+    "03_Projects/Sprint-Current/temproary_test.md",
+    "01_Reference/DevOps/Redis.md",
+    "01_Reference/Agile/Workitems/PBI (Product Backlog Item).md",
+    "05_Weiterbildungen/Rettungssanitäter/Ablauf des Lehrgangs.md",
+    "01_Reference/Python/Virtual Environment.md"
   ]
 }
