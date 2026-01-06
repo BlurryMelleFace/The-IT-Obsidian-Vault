@@ -48,15 +48,15 @@ for (let group of pages) {
 
 ```dataviewjs
 const pages = dv.pages('"03_Projects"')
-	.groupBy(p => {
-	    const folder = p.file.folder;
-	    return folder === "03_Projects" ? "" 
-	    // : folder.replace("03_Projects/", "");
-	});
+  .groupBy(p => {
+    const folder = p.file.folder;
+    if (folder === "03_Projects") return "";
+    return folder.replace("03_Projects/", "");
+  });
 
-for (let group of pages) {
-    dv.header(3, group.key);
-    dv.list(group.rows.map(p => p.file.link));
+for (const group of pages) {
+  dv.header(3, group.key || "03_Projects");
+  dv.list(group.rows.map(p => p.file.link));
 }
 ```
 
