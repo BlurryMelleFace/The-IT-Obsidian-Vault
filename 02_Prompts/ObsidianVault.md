@@ -12,8 +12,8 @@ tags:
 > This note defines the standard prompts and style constraints for generating and refactoring notes within this Obsidian Vault. It serves as the authoritative source for maintaining consistency across the knowledge base.
 
 **Related Notes:**
-- [[02_Prompts/NotebookLM Prompts]] – Prompts specifically designed for NotebookLM interactions.
-- [[02_Prompts/Dev]] – Development-specific prompts and guidelines.
+- [[NotebookLM]] – Prompts specifically designed for NotebookLM interactions.
+- [[Dev]] – Development-specific prompts and guidelines.
 - [[Index]] – The main entry point for the vault.
 
 ---
@@ -62,7 +62,7 @@ Rewrite the [MDFile] into a clean, structured Obsidian markdown note. Follow thi
 1.  Frontmatter: Include a YAML block at the top with relevant tags (lowercase, kebab-case).
 2.  Title: Ensure there is an H1 Header matching the intended file name.
 3.  Introduction: Immediately follow the title with a > [!INFO] callout block containing a concise definition or summary.
-4.  Connections: Add a **Related Notes:** section immediately after the intro. Analyze the entire vault to identify relevant existing notes and ensure proper networking/backlinking to strengthen the knowledge graph. Use the format - [[Note Name]] – Short description of relationship.
+4.  Connections: Add a **Related Notes:** section immediately after the intro. Analyze the entire vault to identify relevant existing notes and ensure proper networking/backlinking to strengthen the knowledge graph like in the other documents. Use the format - [[Note Name]] – Short description of relationship.
 5.  Separator: Add a horizontal rule --- after the related notes.
 6.  Headings: Use H2 ## and H3 ### headings. ALL H2 headings must start with a relevant emoji
 7.  Content Style:
