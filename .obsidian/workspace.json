@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Reference/DevOps/Logz IO.md",
+                "file": "01_Reference/Git/Git Commands.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logz IO"
+              "title": "Git Commands"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2d4cfb9044fd62d7",
@@ -188,9 +187,9 @@
   },
   "active": "37068e9952c67356",
   "lastOpenFiles": [
+    "01_Reference/DevOps/Logz IO.md",
     "04_Workflows/Token Vending & AWS Credentials.md",
     "02_Prompts/ObsidianVault.md",
-    "01_Reference/DevOps/Logz IO.md",
     "01_Reference/Git/Git Commands.md",
     "03_Projects/Sprint-Current/temporary_daily.md",
     "01_Reference/DevOps/Kubernetes.md",
