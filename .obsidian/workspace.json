@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "cda3f2263d75fa8e",
+        "id": "8c3edb935bef6461",
         "type": "tabs",
         "children": [
           {
-            "id": "acab0f0166fe4afd",
+            "id": "53d10771575dd86a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Reference/DevOps/AWS.md",
-                "mode": "preview",
+                "file": "03_Projects/Sprint-Current/temporary_daily.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS"
-            }
-          },
-          {
-            "id": "37068e9952c67356",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Reference/Git/Git Commands.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git Commands"
+              "title": "temporary_daily"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,16 +167,21 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37068e9952c67356",
+  "active": "53d10771575dd86a",
   "lastOpenFiles": [
+    "03_Projects/Sprint-Current/temporary_daily.md",
+    "01_Reference/Agile/Workitems/Acceptance Criteria.md",
+    "03_Projects/Sprint-Current/temporary_task_ai.md",
+    "03_Projects/Sprint-Current/temproary_test.md",
+    "01_Reference/DevOps/AWS.md",
     "01_Reference/DevOps/Logz IO.md",
+    "01_Reference/Git/Git Commands.md",
     "04_Workflows/Token Vending & AWS Credentials.md",
     "02_Prompts/ObsidianVault.md",
-    "01_Reference/Git/Git Commands.md",
-    "03_Projects/Sprint-Current/temporary_daily.md",
     "01_Reference/DevOps/Kubernetes.md",
     "01_Reference/DevOps/Docker.md",
     "01_Reference/DevOps/IntelliJ.md",
@@ -201,7 +191,6 @@
     "01_Reference/Configuration/IDE.md",
     "01_Reference/DevOps/Redis.md",
     "01_Reference/DevOps/Powershell.md",
-    "01_Reference/Agile/Workitems/Acceptance Criteria.md",
     "Untitled.base",
     "02_Prompts/Construction Kit/Writing Tests.md",
     "02_Prompts/Construction Kit/Sprint Summary.md",
@@ -211,9 +200,6 @@
     "02_Prompts/General.md",
     "02_Prompts/Dev.md",
     "01_Reference/Python/Python.md",
-    "03_Projects/Sprint-Current/temproary_test.md",
-    "03_Projects/Sprint-Current/temporary_refinement.md",
-    "03_Projects/IPID/Summary 2025.md",
     "Pasted image 20251202112651.png",
     "05_Weiterbildungen/Rettungssanitäter",
     "05_Weiterbildungen",
