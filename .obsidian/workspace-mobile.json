@@ -172,6 +172,10 @@
   },
   "active": "9e4505f254dee69c",
   "lastOpenFiles": [
+    "03_Projects/Sprint-Current/temporary_task_ai.md",
+    "03_Projects/Sprint-Current/temproary_test.md",
+    "01_Reference/Python/Virtual Environment.md",
+    "03_Projects/Sprint-Current/temporary_daily.md",
     "01_Reference/DevOps/Docker.md",
     "01_Reference/DevOps/Logz IO.md",
     "01_Reference/Python/Poetry.md",
@@ -181,7 +185,6 @@
     "02_Prompts/Construction Kit/Writing Tests.md",
     "01_Reference/DevOps/Redis.md",
     "01_Reference/DevOps/Powershell.md",
-    "01_Reference/Python/Virtual Environment.md",
     "01_Reference/Python/Isort.md",
     "01_Reference/Python/Python.md",
     "02_Prompts/Learning.md",
@@ -195,9 +198,6 @@
     "01_Reference/Git/Git Commands.md",
     "02_Prompts/General.md",
     "01_Reference/Configuration/IDE.md",
-    "01_Reference/Python/Black.md",
-    "01_Reference/Git/Git Commit Messages.md",
-    "01_Reference/Agile/Workitems/BUG.md",
     "Untitled.base"
   ]
 }
