@@ -4,29 +4,21 @@ tags:
   - daily
   - scratchpad
 ---
-Yesterday, I worked on adjusting the UI to align with the backend changes I made. As I explained yesterday, we are now persisting the `file_processing` task in the database together with its proper status. With this change, the UI can access this data when fetching jobs.
+**Data Analytics**
 
-As of yesterday, 4 out of the now 5 tasks are being displayed. This means we can now also track longer-running file-processing tasks, such as redlining, without the user having to wonder what happened to their file.
+**Backend**
 
-Rahul reviewed the functionality and the tests, after which I merged the changes and promoted them to QA.
+- Unsere Datenbank speichert fehlgeschlagene Statuswerte jetzt korrekt – das war vorher noch nicht sauber umgesetzt.
+    
+- Aktuell bauen wir ein vernünftiges Logging für das Backend-for-Frontend auf. Bisher hatten wir ein umfassendes Logging nur in der Core-API.
+    
+- Für alle AWS-Umgebungen gibt es jetzt ein Celery-Dashboard, womit sich Tasks deutlich einfacher debuggen lassen.
+    
+- Außerdem optimieren wir gerade Celery, insbesondere Concurrency und Prefetch-Multiplier, um die Task-Verarbeitung stabiler und robuster zu machen.
+    
+- Es gibt ein neues `image_processing`-Task, das zeitintensive Funktionen in einen separaten Celery-Worker auslagert.
+    
 
+**UI**
 
-
-Data Analytics: 
-
-Backend
-git 
-Unsere Datenbank persistiert nun fehlgeschlagene Statuswerte korrekt; dies fehlte zuvor.
-
-Wir arbeiten an der Implementierung eines ordnungsgemäßen Loggings für das Backend-for-Frontend, da wir bisher nur in der Core-API über ein umfassendes Logging verfügen.
-
-Wir haben jetzt ein Celery-Dashboard für alle AWS-Umgebungen, wodurch wir Tasks effizienter debuggen können.
-
-Wir optimieren derzeit Celery (Anpassung von Concurrency und Prefetch-Multipliers, um unsere Task-Verarbeitung robuster zu machen).
-
-Neues image_processing task welches zeitintensive funktionen in ein celery worker auslagert
-
-UI
-
-Alle "Critical" und "Major" SonarQube-Findings wurden in der UI behoben.
-
+- Alle „Critical“ und „Major“ SonarQube-Findings in der UI wurden behoben.
