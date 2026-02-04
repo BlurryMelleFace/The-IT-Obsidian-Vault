@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Reference/DevOps/Docker.md",
+                "file": "03_Projects/Sprint-Current/temporary_daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "temporary_daily"
             }
           }
         ],
@@ -172,11 +172,11 @@
   },
   "active": "9e4505f254dee69c",
   "lastOpenFiles": [
+    "01_Reference/DevOps/Docker.md",
     "01_Reference/DevOps/Logz IO.md",
     "01_Reference/Python/Poetry.md",
     "01_Reference/DevOps/AWS.md",
     "01_Reference/DevOps/Kubernetes.md",
-    "01_Reference/DevOps/Docker.md",
     "02_Prompts/NotebookLM.md",
     "02_Prompts/Construction Kit/Writing Tests.md",
     "01_Reference/DevOps/Redis.md",
