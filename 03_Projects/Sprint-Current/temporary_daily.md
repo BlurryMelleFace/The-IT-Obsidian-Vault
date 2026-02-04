@@ -24,6 +24,8 @@ Wir haben jetzt ein Celery-Dashboard für alle AWS-Umgebungen, wodurch wir Tasks
 
 Wir optimieren derzeit Celery (Anpassung von Concurrency und Prefetch-Multipliers, um unsere Task-Verarbeitung robuster zu machen).
 
+Neues image_processing task welches zeitintensive funktionen in ein celery worker auslagert
+
 UI
 
 Alle "Critical" und "Major" SonarQube-Findings wurden in der UI behoben.
