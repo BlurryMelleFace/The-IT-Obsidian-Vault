@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Reference/DevOps/AWS.md",
+                "file": "03_Projects/Sprint-Current/temporary_daily.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS"
+              "title": "Outline of temporary_daily"
             }
           }
         ],
@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,18 +173,18 @@
   "active": "53d10771575dd86a",
   "lastOpenFiles": [
     "03_Projects/Sprint-Current/temporary_daily.md",
+    "Index.md",
+    "01_Reference/DevOps/Docker.md",
+    "01_Reference/DevOps/AWS.md",
     "01_Reference/Agile/Workitems/Acceptance Criteria.md",
     "03_Projects/Sprint-Current/temporary_task_ai.md",
     "03_Projects/Sprint-Current/temproary_test.md",
-    "01_Reference/DevOps/AWS.md",
     "01_Reference/DevOps/Logz IO.md",
     "01_Reference/Git/Git Commands.md",
     "04_Workflows/Token Vending & AWS Credentials.md",
     "02_Prompts/ObsidianVault.md",
     "01_Reference/DevOps/Kubernetes.md",
-    "01_Reference/DevOps/Docker.md",
     "01_Reference/DevOps/IntelliJ.md",
-    "Index.md",
     "01_Reference/Agile/Workitems/BUG.md",
     "01_Reference/Agile/Workitems/PBI (Product Backlog Item).md",
     "01_Reference/Configuration/IDE.md",
