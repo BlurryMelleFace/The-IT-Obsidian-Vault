@@ -4,21 +4,9 @@ tags:
   - daily
   - scratchpad
 ---
-**Data Analytics**
+All tasks are done for the sprint. Except for the bug concerning the redis master and replica retry. I still need to figure out how to recreate a redis overload in AWS. I got changes implemented on my branch which i would no need to test. 
 
-**Backend**
+Apart from that I chatted with razvan yesterday and the sonarcube checks on the api still did not pass even though the high issues werse solved by razvan. 
 
-- Unsere Datenbank speichert fehlgeschlagene Statuswerte jetzt korrekt – das war vorher noch nicht sauber umgesetzt.
-    
-- Aktuell bauen wir ein vernünftiges Logging für das Backend-for-Frontend auf. Bisher hatten wir ein umfassendes Logging nur in der Core-API.
-    
-- Für alle AWS-Umgebungen gibt es jetzt ein Celery-Dashboard, womit sich Tasks deutlich einfacher debuggen lassen.
-    
-- Außerdem optimieren wir gerade Celery, insbesondere Concurrency und Prefetch-Multiplier, um die Task-Verarbeitung stabiler und robuster zu machen.
-    
-- Es gibt ein neues `image_processing`-Task, das zeitintensive Funktionen in einen separaten Celery-Worker auslagert.
-    
+so I helped out there and fixed some medium an low sonarcube issues. now the tecnical dept is under a specific threshold so Now we are passing the quality gate for the api. 
 
-**UI**
-
-- Alle „Critical“ und „Major“ SonarQube-Findings in der UI wurden behoben.
