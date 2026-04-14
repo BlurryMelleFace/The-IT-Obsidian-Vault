@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "03_Projects/Sprint-Current/temporary_daily.md",
+            "file": "02_Prompts/Dev.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -157,12 +157,12 @@
   },
   "active": "418038b64937edad",
   "lastOpenFiles": [
-    "03_Projects/Sprint-Current/temporary_daily.md",
-    "Index.md",
-    "01_Reference/DevOps/Powershell.md",
     "01_Reference/DevOps/Docker.md",
-    "01_Reference/Git/Git Commands.md",
+    "Index.md",
     "02_Prompts/Dev.md",
+    "03_Projects/Sprint-Current/temporary_daily.md",
+    "01_Reference/DevOps/Powershell.md",
+    "01_Reference/Git/Git Commands.md",
     "03_Projects/Sprint-Current/temporary_task_ai.md",
     "03_Projects/Sprint-Current/temproary_test.md",
     "01_Reference/Python/Virtual Environment.md",
