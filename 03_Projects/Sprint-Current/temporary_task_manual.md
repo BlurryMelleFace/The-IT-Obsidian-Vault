@@ -1,26 +1,25 @@
+As you know, over the past couple of days we have been working on the **alignment overlap resolution algorithm**. I have attached a **diff file** that contains all the changes we made. Please go through this diff carefully and make sure you understand the code that has been implemented.
 
-##  User Story
+The next step is to **write unit tests for these functionalities**. Please review the **tests folder** and add the necessary tests in `test_grid.py`.
 
-As an iPID user, I want symbols to maintain proper spacing after grid alignment, so that the DEXPI output remains readable and does not require manual repositioning.
+When writing the tests, try to **reuse existing utilities and helpers already present in the repository**. For example, there are functions such as `generate_data` and `generate_pid_graph` that we could potentially use for constructing test scenarios. In `test_grid.py` there are also functions for creating **distorted or parallel graphs**, which might be useful as well.
 
----
+Ideally, we should construct test graphs that simulate **semi-overlapping or overlapping symbols within a segment**.
 
-## Issue Summary
+To keep things simple, it would be sufficient to:
 
-After grid alignment, certain detected symbols overlap in the DEXPI output.
-
-This issue is primarily observed in the file **"EPL-1000-P-FP 2501.pdf"**, particularly affecting:
-
-- Valves
+- create **one segment** (either vertical or horizontal), and
     
-- Reducers
+- test the overlap resolution logic on that segment.
     
-The overlapping behavior may be related to the current grid resolution settings.
 
----
+Specifically, we should write tests for the following methods:
 
-## Root Cause
+- `_resolve_overlaps_in_segment`
+    
+- `_shift_segment_to_resolve_overlap`
+    
+- `resolve_segment_overlaps`
+    
 
-The `align_graph_to_grid()` function in `grid.py` appears to snap symbols to grid points without enforcing minimum spacing constraints between neighboring symbols.
-
-As a result, symbols that were originally positioned close to one another may be shifted onto the same or adjacent grid coordinates, leading to visual overlap in the exported DEXPI output.
+Please make sure the tests are **concise, clear, and simple**. Avoid overengineering and **reuse as much of the existing code and utilities in the repository as possible**.

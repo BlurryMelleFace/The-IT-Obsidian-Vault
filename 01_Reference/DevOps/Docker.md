@@ -72,7 +72,7 @@ docker pull cr.siemens.com/ipid-recognition-product/components/ai-recognition-mo
 FOR UPDATING (pid-aip example)
 dev
 ```shell
-docker build . -t cr.siemens.com/ipid-recognition-product/components/pid-api:latest --build-arg POETRY_HTTP_BASIC_IPID_RECOGNITION_USERNAME=<> --build-arg POETRY_HTTP_BASIC_IPID_RECOGNITION_PASSWORD=<>
+docker build . -t cr.siemens.com/ipid-recognition-product/components/pid-api:latest --build-arg POETRY_HTTP_BASIC_IPID_RECOGNITION_USERNAME=moritz.staudacher@siemens.com --build-arg POETRY_HTTP_BASIC_IPID_RECOGNITION_PASSWORD=<>
 ```
 
 ## Test On Local
