@@ -1,5 +1,43 @@
 ## MCP Gitlab
 
+```
+Use only gitlab. Read-only.
+
+Show my latest merge requests across all projects. List:
+- MR title
+- project
+- source branch → target branch
+- state (open/merged/closed)
+- created date
+- updated date
+- assignee and reviewer
+```
+
+```
+Use only gitlab. Read-only.
+
+List all repositories (projects) under the "Digital Process Plant" group. Show:
+- project name
+- project ID
+- default branch
+- last activity date
+- visibility
+- web URL
+```
+
+```
+Use only gitlab. Read-only.
+
+Find all open merge requests for the project "siemens/di-pa/sw/dh/ipid/ipid-backend" (adjust path as needed). Show:
+- MR title and IID
+- author
+- source branch → target branch
+- labels
+- created and updated dates
+- pipeline status
+- number of approvals
+```
+
 ## MCP Atlassian
 
 ```
