@@ -1,3 +1,4 @@
+
 As you know, over the past couple of days we have been working on the **alignment overlap resolution algorithm**. I have attached a **diff file** that contains all the changes we made. Please go through this diff carefully and make sure you understand the code that has been implemented.
 
 The next step is to **write unit tests for these functionalities**. Please review the **tests folder** and add the necessary tests in `test_grid.py`.
