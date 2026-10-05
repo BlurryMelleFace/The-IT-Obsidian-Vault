@@ -12,11 +12,11 @@ tags:
 > [!INFO]
 > A collection of useful prompts for daily development tasks, from polishing text to analyzing code.
 
-**Related Notes:**
+**Related Notes:** 
 - [[Git Commands]] – For Reviews & Merge Requests.
 - [[Scrum]] – For User Stories & Tasks.
 - [[Python]], [[Typescript]] – For Code Generation.
-- [[Writing Tests]] – For Unit Testing prompts.
+- [[Writing Tests]] – For Unit Testing prompts. Yes
 
 ## 🤖 Meta-Prompting (Improving Prompts)
 ```text
